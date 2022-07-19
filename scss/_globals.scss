@@ -1,0 +1,399 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+
+
+*, *::before, *::After {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.4; 
+  font-weight: 600;
+  font-size: $font-med;
+  color: $prim-blue;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; 
+  background-color: $bg-light;
+ 
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+
+.sectionbreak {
+  background: url('https://drbobcvetkovic.com.au/wp-content/uploads/2022/06/surgeryimage02-1.jpg') no-repeat right center/cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;  
+  // margin-top: 1rem;
+  &content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+    h2 {
+      // text-transform: uppercase;
+      font-weight: 600;
+      color: $white;
+      padding: 0.6rem;
+      margin-bottom: 0;
+      text-align: center;
+      @include breakpoint-down (medium) {
+        font-size: $font-med;
+      }
+  }
+  .button2 {
+    margin-bottom: 1rem;
+  }
+  }
+}
+.pagebreak {
+  background-color: $prim-blue;
+  height: 0.4rem;
+}
+
+.main-heading-L {
+  margin-right: 5%;
+  margin-top: 1rem;
+  background-color: $white;
+  border-top: $prim-blue solid;
+  border-bottom: $prim-blue solid;
+  border-right: $prim-blue solid;
+  box-shadow: 0.2rem 0.2rem rgb(0 101 168 / 0.4);
+ 
+  .headingtitle {
+    margin-left: 5%;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    color: $prim-blue;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    @include breakpoint-down (medium) {
+      font-weight: 600;
+      padding-left: 1rem;
+      font-size: $font-lrg;
+    }
+    @include breakpoint-down (small) {
+      font-weight: 600;
+      padding-left: 1rem;
+      font-size: $font-reg;
+    }
+    
+  }
+}
+
+.main-heading-R {
+  margin-left: 5%;
+  margin-top: 1rem;
+  padding-bottom: 0;
+  background-color: $white;
+  border-top: $prim-blue solid;
+  border-bottom: $prim-blue solid;
+  border-left: $prim-blue solid;
+  font-weight: 600;
+  box-shadow: -0.2rem 0.2rem rgb(0 101 168 / 0.4);
+ 
+  .headingtitle {
+    margin-right: 5%;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    color: $prim-blue;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 00;
+    margin-bottom: 0;
+    @include breakpoint-down (medium) {
+      font-weight: 600;
+      padding-left: 1rem;
+      font-size: $font-lrg;
+    }
+    @include breakpoint-down (small) {
+      font-weight: 600;
+      padding-left: 1rem;
+      font-size: $font-reg;
+    }
+  }
+}
+
+.main-content-L {
+  margin-right: 5%;
+  margin-top: 1rem;
+  background-color: $white;
+  border-top: $prim-blue solid;
+  border-bottom: $prim-blue solid;
+  border-right: $prim-blue solid;
+  box-shadow: 0.2rem 0.2rem rgb(0 101 168 / 0.4);
+  
+
+}
+.main-content-R {
+  margin-left: 5%;
+  margin-top: 1rem;
+  padding-bottom: 0;
+  background-color: $white;
+  border-top: $prim-blue solid;
+  border-bottom: $prim-blue solid;
+  border-left: $prim-blue solid;
+  box-shadow: -0.2rem 0.2rem rgb(0 101 168 / 0.4);
+  
+
+}
+
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: $sec-blue;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+h1 {    
+    margin-bottom: 1rem;
+    font-size: $font-med;
+    @include breakpoint-up(large) {
+      font-size: $font-lrg;
+    }
+}
+
+h2 {
+font-size: 1.6rem;
+margin-bottom: 1rem;
+  @include breakpoint-up(large) {
+    font-size: 2.4rem;
+    
+    margin-bottom: 2rem;
+  }
+  
+}
+// FLEX STYLES
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+
+// Spacing
+.py {
+  max-width: 120rem;
+  margin: 0 auto;
+
+  &--pall {
+    padding-top: 4.375rem;
+    padding-right: 1.5rem;
+    padding-bottom: 4.375rem;
+    padding-left: 1.5rem;
+
+    @include breakpoint-up(large) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  &--py {
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+
+    @include breakpoint-up(large) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  &--px {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  &--pt {
+    padding-top: 2.375rem;
+
+    @include breakpoint-up(large) {
+      padding-top: 6rem;
+    }
+  }
+  &--pr {
+    padding-right: 1.5rem;
+  }
+  &--pb {
+    padding-bottom: 4.375rem;
+
+    @include breakpoint-up(large) {
+      padding-bottom: 6rem;
+    }
+  }
+  &--pl {
+    padding-left: 1.5rem;
+  }
+}
+
+// margin
+.mt {
+  margin-top: 0;
+}
+
+.mb {
+  margin-bottom: 0;
+}
+.mb1 {
+  margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  
+  &-jc-c {
+    justify-content: center;
+  }
+  
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+// Top-border bottom border 
+
+.t-border {
+  border-top: 0.2rem $prim-blue solid;
+  @include breakpoint-up(medium) {
+    border-top: 0.4rem $prim-blue solid;
+  }
+}
+
+.b-border {
+  border-bottom: 0.2rem $prim-blue solid;
+  @include breakpoint-up(medium) {
+    border-bottom: 0.4rem $prim-blue solid;
+  }
+}
+// Buttons
+
+button,
+.button1 {
+  background-color: $overlay;
+  padding: 0.36rem 0;
+  border: 0;
+  width: 8rem;
+  border-radius: 50px;
+  cursor: pointer;
+  color: $white;
+  font-weight: 600;
+  text-align: center;
+  font-size: $font-med;
+  overflow: hidden;
+  transition: 300ms ease-in-out;
+  @include breakpoint-down(small) {
+    transform: scale(50%);
+    transition: 300ms ease-in-out;
+  }
+  
+  &:hover {
+    background-color: $overlayw;
+    color: $prim-blue;
+    transition: 300ms ease-in-out;
+   
+  }  
+}
+.button2 {
+  background-color: $overlay;
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+  padding: 0.875rem 2.1875rem;
+  border: 0;
+  height: 1rem;
+  width: 8rem;
+  border-radius: 50px;
+  cursor: pointer;  
+  font-weight: 600;
+  font-size: $font-med;
+  overflow: hidden;
+  transition: opacity 300ms ease-in-out;
+  align-items: center;
+  justify-content: center;
+
+  @include breakpoint-down(small) {
+    transform: scale(50%);
+    transition: 300ms ease-in-out;
+  }
+  a {
+     color: $white;
+  }
+  &:hover {
+    background-color: $overlayw;
+    transition: 300ms ease-in-out;
+    a { color: $prim-blue;
+    }
+  } 
+}
+.button3 {
+  background-color: $prim-blue;
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+  border: 0.2rem $prim-blue solid;
+  padding: 0.875rem 2.1875rem;
+  
+  height: 1rem;
+  width: 8rem;
+  border-radius: 50px;
+  cursor: pointer;  
+  font-weight: 600;
+  font-size: $font-med;
+  overflow: hidden;
+  transition: opacity 300ms ease-in-out;
+  align-items: center;
+  justify-content: center;
+
+  @include breakpoint-down(small) {
+    transform: scale(50%);
+    transition: 300ms ease-in-out;
+  }
+  a {
+     color: $white;
+  }
+  &:hover {
+    background-color: $white;
+    border: 0.2rem $prim-blue solid;
+    transition: 300ms ease-in-out;
+    a { color: $sec-blue;
+    }
+  } 
+}
+.cdalogo {
+  a img {
+    padding: 0.1rem;
+    height: 3rem;
+    transition: 300ms ease-in-out;
+    &:hover {
+    
+    transform: scale(1.2);
+    transition: 300ms ease-in-out;
+    } 
+  }
+   
+}
+// Visibility of nav menu items
+
+.hide-for-mobile {
+  // hide for Tbalet and Mobile
+  @include breakpoint-down(medium){
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  // hide for desktop viewports
+@include breakpoint-up(large) {
+  display: none;
+}
+
+}

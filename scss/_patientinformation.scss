@@ -1,0 +1,125 @@
+.anxiety-info {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+
+  @include breakpoint-up(large) {
+    flex-direction: row;
+  }
+  img {
+    padding: 1rem;
+    width: 100%;
+
+    @include breakpoint-up(large) {
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  &__patient {
+    display: flex;
+    padding: 1rem;
+    text-align: center;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpoint-up(large) {
+      text-align: left;
+      align-self: center;
+      align-items: start;
+      
+    }
+    h2 {
+      color: $prim-blue;
+
+    }
+    p {
+      color: $sec-blue;
+      @include breakpoint-up(large) {
+       font-size: $font-lrg;
+      }
+    }
+    h3 {
+      color: $prim-blue;
+      @include breakpoint-up(large) {
+        font-size: $font-lrg;
+        
+       }
+    }
+       
+    
+  }
+}
+.whattoexpect {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  
+
+  @include breakpoint-up(large) {
+    flex-direction: row;
+  }
+  img {
+    padding: 1rem;
+    width: 100%;
+    order: 1;
+
+    @include breakpoint-up(large) {
+      height: 50%;
+      width: 50%;
+      order: 2;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    order: 2;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpoint-up(large) {
+      text-align: right;
+      align-self: center;
+      order: 1;
+    }
+    h2 {
+      color: $prim-blue;
+      
+
+    }
+    .emergbut {
+      a {
+        font-size: 3rem;
+        color: $black;
+        padding: 0 2rem;
+        cursor: pointer;
+        border-radius: 3.125rem;
+        transition: 300ms ease-in-out;
+       &:hover {
+        transform: scale(1.2);
+        transition: 300ms ease-in-out;
+        background-color: $urg-com;
+        color: $white;
+       }
+      }
+      
+    }
+    p {
+      color: $sec-blue;
+      @include breakpoint-up(large) {
+       font-size: $font-lrg;
+      }
+    }
+    h3 {
+      color: $prim-blue;
+      @include breakpoint-up(large) {
+        font-size: $font-lrg;
+       
+       }
+    }
+  }
+}

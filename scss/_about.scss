@@ -1,0 +1,399 @@
+.main-heading-about {
+  margin-right: 5%;
+  margin-top: 14rem;
+  background-color: $white;
+  border-top: $prim-blue solid;
+  border-bottom: $prim-blue solid;
+  border-right: $prim-blue solid;
+  box-shadow: 0.2rem 0.2rem rgb(0 101 168 / 0.4);
+  // display: flex;
+  @include breakpoint-up(large) {
+    margin-right: 5%;
+  }
+  .headingtitle-about {
+    margin-left: 5%;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    color: $prim-blue;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    @include breakpoint-down (medium) {
+      font-weight: 600;
+      padding-left: 1rem;
+      font-size: $font-lrg;
+    }
+    @include breakpoint-down (small) {
+      font-weight: 600;
+      padding-left: 1rem;
+      font-size: $font-reg;
+    }
+    
+  }
+}
+
+.our-vision {
+  text-align: center;  
+  font-size: $font-lrg;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+  @include breakpoint-up (medium) {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  @include breakpoint-down (medium) {
+    font-size: $font-sml;
+  }
+}
+
+.drbob-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  // height: 100%;
+  padding-left: 1rem;
+  margin-left: 0;
+  @include breakpoint-up (medium) {    
+    padding-left: 2rem;    
+  }
+
+  @include breakpoint-up (large) {
+    flex-direction: row;
+    padding-left: 2rem;
+  }
+  
+
+  .info-drbob {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-around;
+    @include breakpoint-up (medium) {
+     justify-content: center;
+    }
+
+    h2 {
+      padding-top: 1rem;
+      margin-bottom: 0;
+      color: $prim-blue;
+      font-size: $font-reg;
+      font-weight: 600;
+      text-transform: uppercase;
+      @include breakpoint-up (medium) {
+        padding-bottom: 1rem;
+        font-size: $font-lrg;
+      }
+      @include breakpoint-up (large) {
+        padding-bottom: 1rem;
+        font-size: $font-xLrg;
+      }
+    }
+
+    h3 {
+      margin-top: 0;
+      color: $sec-blue;
+      font-size: 0.6rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      @include breakpoint-up (medium) {
+        padding-bottom: 0;
+        font-size: $font-med;
+      }
+      @include breakpoint-up (large) {
+        padding-bottom: 1rem;
+      
+      }
+    }
+
+    p {
+      margin-top: 0;
+      padding-right: 1rem;
+      color: $sec-blue;
+      font-size: $font-sml;
+      font-weight: 600;
+      @include breakpoint-up (medium) {
+       
+        font-size: $font-med;
+      }
+      @include breakpoint-up (large) {
+        font-size: $font-med;
+      }
+      @include breakpoint-up (xlarge) {
+        font-size: $font-reg;
+      }
+    }
+
+    .button2 {
+      margin-bottom: 3rem;
+    }
+  }
+
+  img {     
+    width: 100%;
+    align-self: end;
+    @include breakpoint-up (medium) {
+      width: 40%;    
+    }    
+  }
+}
+
+// THE TEAM
+
+.the-team {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+@include breakpoint-up(large) {
+  flex-direction: row;
+}
+  &-info {
+    padding: 2rem;
+    color: $prim-blue;
+    @include breakpoint-up(large) {
+      align-self: center;
+    }
+    
+    h2 {
+      padding: 1rem 0;
+      margin-bottom: 0;
+      color: $prim-blue;
+      font-size: $font-reg;
+      font-weight: 600;
+      text-transform: uppercase;
+      @include breakpoint-up (medium) {
+        padding-bottom: 1rem;
+        font-size: $font-lrg;
+      }
+      @include breakpoint-up (large) {
+        padding-bottom: 1rem;
+        font-size: $font-xLrg;
+      }
+    }
+
+
+    p {
+      margin-top: 0;
+      padding-right: 1rem;
+      color: $sec-blue;
+      font-size: $font-med;
+      font-weight: 600;
+      
+      @include breakpoint-up (large) {
+        font-size: $font-reg;
+      }
+     
+    }
+
+  }
+
+  .team {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    img {
+      align-self: center;
+      width: 60%;
+      @include breakpoint-up (large) {
+        width:80%;    
+      } 
+    }
+
+  }
+}
+
+// THe Pateints
+
+.patient-info { 
+  display: flex;
+  flex-direction: row;
+  @include breakpoint-down(medium) {
+    flex-direction: column;
+  }
+  
+  &_patient {
+    padding: 2rem;
+    color: $prim-blue;
+    align-self: center;
+    text-align: center;
+    h2 {
+      padding: 1rem 0;
+      margin-bottom: 0;
+      color: $prim-blue;
+      font-size: $font-reg;
+      font-weight: 600;
+      text-transform: uppercase;
+      @include breakpoint-up (medium) {
+        padding-bottom: 1rem;
+        font-size: $font-lrg;
+      }
+      @include breakpoint-up (large) {
+        padding-bottom: 1rem;
+        font-size: $font-xLrg;
+      }
+      @include breakpoint-up (xlarge) {
+        margin-bottom: 3rem;
+      }
+    }
+    h3 {
+      margin-top: 0;
+      color: $prim-blue;
+      font-size: $font-reg;
+      font-weight: 600;
+     
+      @include breakpoint-up (medium) {
+        padding-bottom: 0;
+        font-size: $font-lrg;
+      }
+      @include breakpoint-up (large) {
+        padding-bottom: 1rem;
+      
+      }
+    }
+ 
+
+    p {
+      margin-top: 0;
+      color: $sec-blue;
+      font-size: $font-med;
+      font-weight: 600;
+      @include breakpoint-up (medium) {
+       
+        font-size: $font-med;
+      }
+      @include breakpoint-up (large) {
+        font-size: $font-reg;
+        margin-bottom: 2rem;
+      }
+      @include breakpoint-up (xlarge) {
+        // font-size: $font-lrg;
+      }
+    }
+  }
+
+  img {
+    align-self: center;
+    padding: 1rem;
+    width: 100%;  
+    @include breakpoint-up (large) {
+       width: 60%;
+    }
+  }
+   
+
+}
+
+// THe PRACTICE
+
+
+.the-practice {
+display: flex;
+flex-direction: column;
+padding: 1rem;
+text-align: center;
+justify-content: center;
+
+@include breakpoint-up (large) {
+  flex-direction: row;
+}
+  img {
+    width: 100%;
+    @include breakpoint-up (large) {
+      flex-direction: row;
+      width: 50%;
+    }
+  }
+
+  &-info {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include breakpoint-up (large) {
+     align-self: center;
+    }
+
+    img {
+      margin: 2rem 0;
+      height: 2rem;
+      width: auto;
+      @include breakpoint-up (medium) {
+        height: 3rem;
+      }
+      @include breakpoint-up (large) {
+        height: 6rem;
+      }
+    }
+
+    h3 {
+      color: $sec-blue;
+      font-size: $font-med;
+      font-weight: 600;
+
+      @include breakpoint-up (medium) {
+        font-size: $font-reg;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      @include breakpoint-up (large) {
+        font-size: $font-lrg;
+      }
+    }
+  }
+}
+
+// Accreditation
+
+
+.accred-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  
+  
+  
+    &_accred {    
+      align-items: center;
+      h2 {
+        text-transform: uppercase;
+        color: $prim-blue;
+        font-weight: 600;
+        font-size: $font-reg;
+        @include breakpoint-up (medium) {
+          font-size: $font-lrg;
+        }
+  
+      }     
+  
+      h3 {
+        color: $sec-blue;
+        font-size: $font-med;
+        font-weight: 600;
+        @include breakpoint-up (medium) {
+          font-size: $font-reg;
+        }
+  
+        
+      }
+    }
+
+    &_logo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+
+      a img {
+        height: 3rem;
+
+        @include breakpoint-up (medium) {
+
+          height: 8rem;
+        }
+      }
+    }
+
+  }
+
+

@@ -1,0 +1,182 @@
+.footer {
+  background: url('https://drbobcvetkovic.com.au/wp-content/uploads/2022/06/bannerimage1.jpg') no-repeat top center/cover;
+  background-attachment: fixed;
+
+  color: $white;
+  padding: 1.4rem;
+  text-align: center;
+  height: 100%;
+  @include breakpoint-up(large) {
+    height: 100%;
+  }
+
+  img {
+    height: 8rem;
+  }
+  
+.py{
+ 
+  @include breakpoint-up(large) {
+    background-position: top;
+    display: grid;
+    grid-template-columns:repeat(6, 2fr);
+    grid-template-rows: 1fr auto;
+    grid-template-areas: 
+    "logo info info buttons cdalogo cdalogo"
+    "buscon buscon buscon copyright copyright copyright"
+    ;
+    gap: 1rem;
+    justify-items: start;
+  }
+
+  }
+  a {
+    color: $white;
+    
+  }
+  &__logo {
+    display: inline-block; //anchor elements are default deisplay: inline hence display:block or display:inline-block is necessary    
+    @include breakpoint-down(large) {
+      margin-bottom: 2rem;
+    }
+    @include breakpoint-up(large) {
+      grid-area: logo;
+    }
+   
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    h3 {
+      text-align: center;
+      font-size: $font-sml;
+      font-weight: 400;
+      color: $white;
+    
+    }
+    
+    @include breakpoint-down(large) {
+      margin-bottom: 2rem;
+    }
+    @include breakpoint-up(large) {
+      grid-area: info;
+      align-self: end;
+      h3 {
+        text-align: left;
+      }
+    }
+    
+  }
+
+  &__buscon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    @include breakpoint-up(large) {
+      grid-area: buscon;
+      flex-direction: row;     
+    }
+    h3 {
+      color: $white;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: $font-sml;
+      @include breakpoint-up(large) {
+        font-size:$font-med;  
+        padding-right: 1rem;
+    }
+  }
+    p {
+      font-size: $font-xsml;
+      @include breakpoint-up(large) {
+      font-size:$font-sml;
+      padding-right: 1rem;
+    }
+  }
+    a {
+      text-transform: uppercase;
+      line-height: 2;
+      font-size: 0.8rem;
+      &:hover {
+        color: $prim-blue;
+        transform:scale(1.1);
+        transition: all 200ms ease-in-out;
+      }
+      
+    }
+   
+ 
+}
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+    .button2 {
+      margin-bottom: 1rem;
+
+    }
+    
+  }
+
+  .cdalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @include breakpoint-up (medium) {
+    :nth-child(2) {
+      padding-left: 4rem;
+    }
+  }
+   
+    @include breakpoint-up(large) {
+      justify-content: center;
+      :nth-child(2) {
+        padding-left: 0;
+      }
+      a img {
+        padding: 0;
+        height: 3.4rem;
+        margin: 1rem;
+      
+      }
+      grid-area: cdalogo;
+     
+      justify-self: end;
+    }
+    
+  }
+
+  &__copyright {
+    @include breakpoint-up(large){
+    display: grid;
+    grid-area: copyright;
+    justify-self: end;
+    align-self: end;
+    margin-bottom: 0;
+    }
+p {
+  margin-block-end: 0;
+  font-size: $font-xsml;
+  font-weight: 400;
+  @include breakpoint-up(medium){
+    font-size: $font-sml;
+  }
+  a {
+    &:hover {
+      color: $prim-blue;
+    }
+  }
+}
+  }
+
+}

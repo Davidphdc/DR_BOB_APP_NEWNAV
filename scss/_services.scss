@@ -1,0 +1,898 @@
+.generalservice {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  padding-right: 5%;
+
+  &-R {
+    justify-content: end;
+    grid-template-columns: 1fr 2fr;
+    padding-right: 0;
+    padding-left: 5%;
+  }
+   
+
+  @include breakpoint-down (medium) {
+    display: flex;
+    flex-direction: column;
+  }
+  .servicetype {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    overflow: hidden;
+ 
+  
+    .servicelinks, .servicelinks1, .servicelinks2, .servicelinks3 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 8rem;
+     width: 100%;
+     overflow: hidden;
+     background-color: $overlayw;
+    
+     
+     h2 {
+      text-align: center;
+      padding: 0 1rem;
+      background-color: $overlayw;
+      color: $prim-blue;
+      margin-bottom: 0;
+      font-size: $font-reg;
+      text-transform: uppercase;
+      opacity: 0.4;
+    }
+    
+    &:hover {
+      position: relative;
+      color: $white;
+      transform:scale(1.1);
+      transition: 400ms;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      h2 {
+        vertical-align: middle;
+        text-align: center;
+        font-weight: 600;
+        transition: 400ms;
+        opacity: 1;
+      }
+    }
+      &__service1 {
+        background: url(../dist/Assets/Images/services5.png) no-repeat center/cover;       
+      }
+      &__service2 {
+        background: url(../dist/Assets/Images/services2.png) no-repeat center/cover;
+      }
+      &__service3 {
+        background: url(../dist/Assets/Images/second\ Opinions.png)no-repeat center/cover;
+      }
+      &__service4 {
+        background: url(../dist/Assets/Images/services3.png) no-repeat center/cover;
+      }      
+      &__service5 {
+        background: url(../dist/Assets/Images/patient1.jpg) no-repeat center/cover;
+      }
+      &__service6 {
+        background: url(../dist/Assets/Images/services6.png) no-repeat center/cover;
+      }
+      &__service7 {
+        background: url(../dist/Assets/Images/mouthguardchild.jpg) no-repeat center/cover;       
+      }
+      &__service8 {
+        background: url(../dist/Assets/Images/scaleclean.jpg) no-repeat center/cover;
+      }
+      &__service9 {
+        background: url(../dist/Assets/Images/educatedental.jpg)no-repeat center/cover;
+      }
+      &__service10 {
+        background: url(../dist/Assets/Images/coachingdental.jpg) no-repeat center/cover;
+      }      
+      &__service11 {
+        background: url(../dist/Assets/Images/regularcheckups.jpg) no-repeat center/cover;
+      }
+      &__service12 {
+        background: url(../dist/Assets/Images/periodontal.jpg) no-repeat center/cover;
+      }
+      &__service13 {
+        background: url(../dist/Assets/Images/bridges.jpg) no-repeat center/cover;
+      }
+      &__service14 {
+        background: url(../dist/Assets/Images/rootcanal.jpg) no-repeat center/cover;
+      }
+      &__service15 {
+        background: url(../dist/Assets/Images/toothfill.jpg) no-repeat center/cover;
+      }
+      &__service16 {
+        background: url(../dist/Assets/Images/implants.jpg) no-repeat center/cover;
+      }
+      &__service17 {
+        background: url(../dist/Assets/Images/veneers.jpg) no-repeat center/cover;
+      }
+      &__service18 {
+        background: url(../dist/Assets/Images/braces.jpg) no-repeat center/cover;
+      }
+      &__service19 {
+        background: url(../dist/Assets/Images/teethwhite.jpg) no-repeat center/cover;
+      }
+      &__service20 {
+        background: url(../dist/Assets/Images/compbond.jpg) no-repeat center/cover;
+      }
+      &__service21 {
+        background: url(../dist/Assets/Images/dentalhelp.png) no-repeat center/cover;
+      }
+      &__service22 {
+        background: url(../dist/Assets/Images/crowns.jpg) no-repeat center/cover;
+      }
+      &__service23 {
+        background: url(../dist/Assets/Images/bridges.jpg) no-repeat center/cover;
+      }
+      &__service24 {
+        background: url(../dist/Assets/Images/veneers.jpg) no-repeat center/cover;
+      }
+
+    }
+  
+  }
+
+
+  .servicecontent, .servicecontent1, .servicecontent2, .servicecontent3 {
+    display: none;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    
+    @include breakpoint-down (medium) {
+      width: 100%;
+      text-align: center;
+    }
+    &__start {
+      background: url(../dist/Assets/Images/generaldentist.png)no-repeat center/cover;
+      display: flex;
+      width: 100%;
+      flex-direction: column;  
+      align-items: end;
+      justify-content: end;
+      text-align: right;
+      
+      @include breakpoint-down (medium) {
+        width: 100%;
+        text-align: center;
+      }
+      h2 {
+        background-color: $overlayw;
+        color: $prim-blue;
+        width: 100%;
+        padding: 1rem 2rem 0 2rem;
+        margin-bottom: 0;
+      
+      }
+      p {
+        background-color: $overlayw;
+        color: $sec-blue;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 1rem 2rem;
+      }
+    }
+  }
+  .servicecontent1 {
+    text-align: left;
+    &__start {
+      background: url(../dist/Assets/Images/patient1.jpg)no-repeat center/cover;
+      text-align: left;
+    }
+    justify-content: right;
+    justify-items: right;
+  }
+  .servicecontent2 {
+    text-align: right;
+    &__start {
+      background: url(../dist/Assets/Images/restorativedental.jpg)no-repeat center/cover;
+      text-align: right;
+    }
+    justify-content: right;
+    justify-items: right;
+  }
+  .servicecontent3 {
+    text-align: right;
+    &__start {
+      background: url(../dist/Assets/Images/Cosmetic.png)no-repeat center/cover;
+      text-align: right;
+    }
+    justify-content: right;
+    justify-items: right;
+  }
+  
+// GENERAL ORAL HEALTH SERVICES IMAGES
+  #check-ups {
+    background: url(../dist/Assets/Images/services5.png)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    
+    transition: 2s;
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+    
+  }
+  #oral-hygiene {
+    background: url(../dist/Assets/Images/services2.png)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #second-opinions {
+    background: url(../dist/Assets/Images/second\ Opinions.png)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #fillings {
+    background: url(../dist/Assets/Images/services3.png)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #child-dentistry {
+    background: url(../dist/Assets/Images/patient1.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #jaw-pain {
+    background: url(../dist/Assets/Images/services6.png)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+
+
+
+  // Preventative SERVICES IMAGES
+  #mouthguards {
+    background: url(../dist/Assets/Images/mouthguardchild.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+    
+  }
+  #scale-clean {
+    background: url(../dist/Assets/Images/scaleclean.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    }
+
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #education {
+    background: url(../dist/Assets/Images/educatedental.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #coaching {
+    background: url(../dist/Assets/Images/coachingdental.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #regular-check-ups {
+    background: url(../dist/Assets/Images/regularcheckups.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #periodontal {
+    background: url(../dist/Assets/Images/periodontal.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  // Restorative SERVICES IMAGES
+  #bridges {
+    background: url(../dist/Assets/Images/bridges.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+    
+  }
+  #root {
+    background: url(../dist/Assets/Images/rootcanal.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    }
+
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #fill {
+    background: url(../dist/Assets/Images/toothfill.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #implants {
+    background: url(../dist/Assets/Images/implants.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #veneers{
+    background: url(../dist/Assets/Images/veneers.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #braces {
+    background: url(../dist/Assets/Images/braces.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #teeth-white {
+    background: url(../dist/Assets/Images/teethwhite.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #comp-bond {
+    background: url(../dist/Assets/Images/compbond.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #consult {
+    background: url(../dist/Assets/Images/dentalhelp.png)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #dent-crown {
+    background: url(../dist/Assets/Images/crowns.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #dent-bridge {
+    background: url(../dist/Assets/Images/bridges.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+  #dent-veneer {
+    background: url(../dist/Assets/Images/veneers.jpg)no-repeat center/cover;
+    flex-direction: column;
+    justify-content: end;
+    transition: 400ms;
+   
+    h2 {
+      background-color: $overlayw;
+      color: $prim-blue;
+      width: 100%;
+      padding: 1rem 2rem 0 2rem;
+      margin-bottom: 0;
+    
+    }
+    p {
+      background-color: $overlayw;
+      color: $sec-blue;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1rem 2rem;
+    }
+  }
+}
+
+.specialty-info {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+
+  @include breakpoint-up(large) {
+    flex-direction: row;
+  }
+  img {
+    padding: 1rem;
+    width: 100%;
+
+    @include breakpoint-up(large) {
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+  &__referrals {
+    display: flex;
+    padding: 1rem;
+    text-align: center;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpoint-up(large) {
+      text-align: left;
+      align-self: center;
+      align-items: start;
+      
+    }
+    h2 {
+      color: $prim-blue;
+
+    }
+    p {
+      color: $sec-blue;
+      @include breakpoint-up(large) {
+       font-size: $font-lrg;
+      }
+    }
+    h3 {
+      color: $prim-blue;
+      @include breakpoint-up(large) {
+        font-size: $font-lrg;
+        
+       }
+    }
+       
+    
+  }
+}
+.emergency {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  
+
+  @include breakpoint-up(large) {
+    flex-direction: row;
+  }
+  img {
+    padding: 1rem;
+    width: 100%;
+    order: 1;
+
+    @include breakpoint-up(large) {
+      height: 50%;
+      width: 50%;
+      order: 2;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    order: 2;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpoint-up(large) {
+      text-align: right;
+      align-self: center;
+      order: 1;
+    }
+    h2 {
+      color: $prim-blue;
+      
+
+    }
+    .emergbut {
+      a {
+        font-size: 3rem;
+        color: $black;
+        padding: 0 2rem;
+        cursor: pointer;
+        border-radius: 3.125rem;
+        transition: 300ms ease-in-out;
+       &:hover {
+        transform: scale(1.2);
+        transition: 300ms ease-in-out;
+        background-color: $urg-com;
+        color: $white;
+       }
+      }
+      
+    }
+    p {
+      color: $sec-blue;
+      @include breakpoint-up(large) {
+       font-size: $font-lrg;
+      }
+    }
+    h3 {
+      color: $prim-blue;
+      @include breakpoint-up(large) {
+        font-size: $font-lrg;
+       
+       }
+    }
+  }
+}

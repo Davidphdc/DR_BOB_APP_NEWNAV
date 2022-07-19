@@ -1,0 +1,153 @@
+.contactinfo {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+margin-left: 0;
+text-align: center;
+
+@include breakpoint-up(large) {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.8fr 0.2fr 1fr;
+  grid-template-areas: 
+  "localedets info"
+  "localemap buttons"
+  "localemap parking"
+  ;
+}
+
+h2 {
+  padding-top: 1rem;
+  margin-bottom: 0;
+  color: $prim-blue;
+  font-size: $font-sml;
+  font-weight: 600;
+  text-transform: uppercase;
+  @include breakpoint-up (medium) {
+    padding-bottom: 1rem;
+    font-size: $font-reg;
+  }
+  @include breakpoint-up (large) {
+    padding-bottom: 0;
+    font-size: $font-lrg;
+  }
+}
+
+h3 {
+  padding-top: 1rem;
+  margin-bottom: 0;
+  color: $sec-blue;
+  font-size: $font-xsml;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include breakpoint-up (medium) {
+    padding-bottom: 1rem;
+    font-size: $font-sml;
+  }
+  @include breakpoint-up (large) {
+    padding-bottom: 0rem;
+    font-size: $font-med;
+  }
+  
+}
+p {
+  margin-top: 0;
+  padding: 0 1rem;
+  color: $sec-blue;
+  font-size: $font-xsml;
+  font-weight: 600;
+  @include breakpoint-up (medium) {
+   
+    font-size: $font-sml;
+  }
+  @include breakpoint-up (large) {
+    font-size: $font-med;
+  }
+  @include breakpoint-up (xlarge) {
+    font-size: $font-reg;
+  }
+}
+
+  &__info {
+
+    order: 1;
+    @include breakpoint-up (large) {
+      grid-area: info;
+    }
+
+    h3 {
+      &:last-child {
+        text-transform: uppercase;
+      }
+    }
+  }
+  &__parking {
+    h2 {
+      padding-bottom: 1rem;
+    }
+    order: 5;
+    @include breakpoint-up (large) {
+      grid-area: parking;
+    }
+
+  }
+  &__localedets {
+    order: 2;
+    @include breakpoint-up (large) {
+      grid-area: localedets;
+    }
+    h3 {
+      @include breakpoint-up (large) {
+        font-size: $font-lrg;
+      }
+      text-transform: none;
+      &:last-child {
+        text-transform: lowercase;
+        padding-bottom: 1rem;
+      }
+    }
+
+  }
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    order: 3;
+    margin-bottom: 1rem;
+    @include breakpoint-up (large) {
+      align-items: start;
+      flex-direction: row;
+      grid-area: buttons;
+    }
+    .button3 {
+      &:hover {
+        color: $sec-blue;
+      }
+    }
+  }
+  &__localemap {
+    order: 4;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position:relative;
+    height:0;
+    @include breakpoint-up(large) {
+     align-self: end;
+     grid-area: localemap;
+    }
+    iframe{
+      left:0;
+      top:0;  
+      height:100%;  
+      width:100%;  
+      position:absolute;  
+  }
+
+  }
+
+
+}
