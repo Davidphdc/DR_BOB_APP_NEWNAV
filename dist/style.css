@@ -546,7 +546,7 @@ button:hover,
 }
 @media (max-width: 39.9375em) {
   .header {
-    background: url("../dist/Assets/Images/bannerimage1.jpg") no-repeat top center/cover;
+    background: url("Assets/Images/bannerimage1.jpg") no-repeat top center/cover;
     flex-direction: column;
     height: 100vh;
   }
@@ -561,7 +561,7 @@ button:hover,
     padding: 1rem 2rem;
   }
   .header .menu-btn {
-    background: url("../dist/Assets/bars-solid.svg") no-repeat;
+    background: url("Assets/bars-solid.svg") no-repeat;
     width: 2.5rem;
     height: 2.5rem;
     background-size: 1.5625rem;
@@ -571,7 +571,7 @@ button:hover,
   }
   .header .menu-btn:hover {
     transition: 0.5S;
-    background: url("../dist/Assets/bars-solid.svg") no-repeat;
+    background: url("Assets/bars-solid.svg") no-repeat;
     width: 2.5rem;
     height: 2.5rem;
     background-size: 1.5625rem;
@@ -631,7 +631,7 @@ button:hover,
   }
   .header .navigation .menu .close-btn {
     position: absolute;
-    background: url("../dist/Assets/xmark-solid.svg") no-repeat;
+    background: url("Assets/xmark-solid.svg") no-repeat;
     width: 2.5rem;
     height: 2.5rem;
     background-size: 1.5625rem;
@@ -643,7 +643,7 @@ button:hover,
   }
   .header .navigation .menu .close-btn:hover {
     transition: 0.5S;
-    background: url("../dist/Assets/xmark-solid.svg") no-repeat;
+    background: url("Assets/xmark-solid.svg") no-repeat;
     width: 2.5rem;
     height: 2.5rem;
     background-size: 1.5625rem;

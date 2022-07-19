@@ -66,7 +66,7 @@
   }
 
   @include breakpoint-down(small) {
-    background: url("../dist/Assets/Images/bannerimage1.jpg")no-repeat top center/cover;
+    background: url('Assets/Images/bannerimage1.jpg')no-repeat top center/cover;
     flex-direction: column;
     height: 100vh;
    
@@ -81,7 +81,7 @@
     justify-content: space-between;
     padding: 1rem 2rem;
     .menu-btn {
-          background: url('../dist/Assets/bars-solid.svg')no-repeat;
+          background: url('Assets/bars-solid.svg')no-repeat;
           width: 2.5rem;
           height: 2.5rem;
           background-size: 1.5625rem;
@@ -90,7 +90,7 @@
           display: block;  
           &:hover {
             transition: 0.5S;
-            background: url('../dist/Assets/bars-solid.svg')no-repeat;
+            background: url('Assets/bars-solid.svg')no-repeat;
             width: 2.5rem;
             height: 2.5rem;
             background-size: 1.5625rem;
@@ -151,7 +151,7 @@
         // Close Menu Button
       .close-btn {
         position: absolute;
-        background: url('../dist/Assets/xmark-solid.svg')no-repeat;        
+        background: url('Assets/xmark-solid.svg')no-repeat;        
         width: 2.5rem;
         height: 2.5rem;
         background-size: 1.5625rem;
@@ -162,7 +162,7 @@
         cursor: pointer;
         &:hover {
           transition: 0.5S;
-          background: url('../dist/Assets/xmark-solid.svg')no-repeat;
+          background: url('Assets/xmark-solid.svg')no-repeat;
           width: 2.5rem;
           height: 2.5rem;
           background-size: 1.5625rem;
