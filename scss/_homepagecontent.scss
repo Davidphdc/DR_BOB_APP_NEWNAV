@@ -451,7 +451,7 @@
     width: 100%;
    
     &_1 {
-      background: url('../dist/Assets/Images/news.png') no-repeat center center/cover;
+      background: url('Assets/Images/news.png') no-repeat center center/cover;
       height: 6rem;
       
       position: relative;
@@ -467,7 +467,7 @@
       }
     }
     &_2 {
-      background: url('../dist/Assets/Images/articles.png') no-repeat center center/cover;
+      background: url('Assets/Images/articles.png') no-repeat center center/cover;
       position: relative;
       height: 6rem;
       @include breakpoint-up(medium) {

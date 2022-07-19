@@ -1497,7 +1497,7 @@ button:hover,
   width: 100%;
 }
 .articles_news__feature_1 {
-  background: url("../dist/Assets/Images/news.png") no-repeat center center/cover;
+  background: url("Assets/Images/news.png") no-repeat center center/cover;
   height: 6rem;
   position: relative;
   align-items: center;
@@ -1513,7 +1513,7 @@ button:hover,
   font-size: 1.6rem;
 }
 .articles_news__feature_2 {
-  background: url("../dist/Assets/Images/articles.png") no-repeat center center/cover;
+  background: url("Assets/Images/articles.png") no-repeat center center/cover;
   position: relative;
   height: 6rem;
 }
