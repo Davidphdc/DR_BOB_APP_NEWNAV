@@ -851,7 +851,7 @@ button:hover,
   align-items: center;
   justify-content: space-between;
   padding: 0.4rem;
-  height: 9vh;
+  height: 10vh;
 }
 @media (min-width: 40em) {
   .header.sticky {
