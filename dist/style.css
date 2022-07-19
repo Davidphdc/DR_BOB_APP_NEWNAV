@@ -546,7 +546,7 @@ button:hover,
 }
 @media (max-width: 39.9375em) {
   .header {
-    background: url("Assets/Images/bannerimage1.jpg") no-repeat top center/cover;
+    background: url("Assets/Images/bannerimage1.jpg") no-repeat right center/cover;
     flex-direction: column;
     height: 100vh;
   }
@@ -850,7 +850,7 @@ button:hover,
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: url("Assets/Images/bannerimage1.jpg") no-repeat right center/cover;
+  background: url("Assets/Images/bannerimage1.jpg") no-repeat top center/cover;
   padding: 0.4rem;
   height: 11vh;
 }
