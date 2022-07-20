@@ -64,76 +64,76 @@
       }
     }
       &__service1 {
-        background: url(../dist/Assets/Images/services5.png) no-repeat center/cover;       
+        background: url("Assets/Images/services5.png") no-repeat center/cover;       
       }
       &__service2 {
-        background: url(../dist/Assets/Images/services2.png) no-repeat center/cover;
+        background: url("Assets/Images/services2.png") no-repeat center/cover;
       }
       &__service3 {
-        background: url(../dist/Assets/Images/second\ Opinions.png)no-repeat center/cover;
+        background: url("Assets/Images/second\ Opinions.png")no-repeat center/cover;
       }
       &__service4 {
-        background: url(../dist/Assets/Images/services3.png) no-repeat center/cover;
+        background: url("Assets/Images/services3.png") no-repeat center/cover;
       }      
       &__service5 {
-        background: url(../dist/Assets/Images/patient1.jpg) no-repeat center/cover;
+        background: url("Assets/Images/patient1.jpg") no-repeat center/cover;
       }
       &__service6 {
-        background: url(../dist/Assets/Images/services6.png) no-repeat center/cover;
+        background: url("Assets/Images/services6.png") no-repeat center/cover;
       }
       &__service7 {
-        background: url(../dist/Assets/Images/mouthguardchild.jpg) no-repeat center/cover;       
+        background: url("Assets/Images/mouthguardchild.jpg") no-repeat center/cover;       
       }
       &__service8 {
-        background: url(../dist/Assets/Images/scaleclean.jpg) no-repeat center/cover;
+        background: url("Assets/Images/scaleclean.jpg") no-repeat center/cover;
       }
       &__service9 {
-        background: url(../dist/Assets/Images/educatedental.jpg)no-repeat center/cover;
+        background: url("Assets/Images/educatedental.jpg")no-repeat center/cover;
       }
       &__service10 {
-        background: url(../dist/Assets/Images/coachingdental.jpg) no-repeat center/cover;
+        background: url("Assets/Images/coachingdental.jpg") no-repeat center/cover;
       }      
       &__service11 {
-        background: url(../dist/Assets/Images/regularcheckups.jpg) no-repeat center/cover;
+        background: url("Assets/Images/regularcheckups.jpg") no-repeat center/cover;
       }
       &__service12 {
-        background: url(../dist/Assets/Images/periodontal.jpg) no-repeat center/cover;
+        background: url("Assets/Images/periodontal.jpg") no-repeat center/cover;
       }
       &__service13 {
-        background: url(../dist/Assets/Images/bridges.jpg) no-repeat center/cover;
+        background: url("Assets/Images/bridges.jpg") no-repeat center/cover;
       }
       &__service14 {
-        background: url(../dist/Assets/Images/rootcanal.jpg) no-repeat center/cover;
+        background: url("Assets/Images/rootcanal.jpg") no-repeat center/cover;
       }
       &__service15 {
-        background: url(../dist/Assets/Images/toothfill.jpg) no-repeat center/cover;
+        background: url("Assets/Images/toothfill.jpg") no-repeat center/cover;
       }
       &__service16 {
-        background: url(../dist/Assets/Images/implants.jpg) no-repeat center/cover;
+        background: url("Assets/Images/implants.jpg") no-repeat center/cover;
       }
       &__service17 {
-        background: url(../dist/Assets/Images/veneers.jpg) no-repeat center/cover;
+        background: url("Assets/Images/veneers.jpg") no-repeat center/cover;
       }
       &__service18 {
-        background: url(../dist/Assets/Images/braces.jpg) no-repeat center/cover;
+        background: url("Assets/Images/braces.jpg") no-repeat center/cover;
       }
       &__service19 {
-        background: url(../dist/Assets/Images/teethwhite.jpg) no-repeat center/cover;
+        background: url("Assets/Images/teethwhite.jpg") no-repeat center/cover;
       }
       &__service20 {
-        background: url(../dist/Assets/Images/compbond.jpg) no-repeat center/cover;
+        background: url("Assets/Images/compbond.jpg") no-repeat center/cover;
       }
       &__service21 {
-        background: url(../dist/Assets/Images/dentalhelp.png) no-repeat center/cover;
+        background: url("Assets/Images/dentalhelp.png") no-repeat center/cover;
       }
       &__service22 {
-        background: url(../dist/Assets/Images/crowns.jpg) no-repeat center/cover;
+        background: url("Assets/Images/crowns.jpg") no-repeat center/cover;
       }
       &__service23 {
-        background: url(../dist/Assets/Images/bridges.jpg) no-repeat center/cover;
+        background: url("Assets/Images/bridges.jpg") no-repeat center/cover;
       }
       &__service24 {
-        background: url(../dist/Assets/Images/veneers.jpg) no-repeat center/cover;
+        background: url("Assets/Images/veneers.jpg") no-repeat center/cover;
       }
 
     }
@@ -152,7 +152,7 @@
       text-align: center;
     }
     &__start {
-      background: url(../dist/Assets/Images/generaldentist.png)no-repeat center/cover;
+      background: url("Assets/Images/generaldentist.png")no-repeat center/cover;
       display: flex;
       width: 100%;
       flex-direction: column;  
@@ -185,7 +185,7 @@
   .servicecontent1 {
     text-align: left;
     &__start {
-      background: url(../dist/Assets/Images/patient1.jpg)no-repeat center/cover;
+      background: url("Assets/Images/patient1.jpg")no-repeat center/cover;
       text-align: left;
     }
     justify-content: right;
@@ -194,7 +194,7 @@
   .servicecontent2 {
     text-align: right;
     &__start {
-      background: url(../dist/Assets/Images/restorativedental.jpg)no-repeat center/cover;
+      background: url("Assets/Images/restorativedental.jpg")no-repeat center/cover;
       text-align: right;
     }
     justify-content: right;
@@ -203,7 +203,7 @@
   .servicecontent3 {
     text-align: right;
     &__start {
-      background: url(../dist/Assets/Images/Cosmetic.png)no-repeat center/cover;
+      background: url("Assets/Images/Cosmetic.png")no-repeat center/cover;
       text-align: right;
     }
     justify-content: right;
@@ -212,7 +212,7 @@
   
 // GENERAL ORAL HEALTH SERVICES IMAGES
   #check-ups {
-    background: url(../dist/Assets/Images/services5.png)no-repeat center/cover;
+    background: url("Assets/Images/services5.png")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     
@@ -236,7 +236,7 @@
     
   }
   #oral-hygiene {
-    background: url(../dist/Assets/Images/services2.png)no-repeat center/cover;
+    background: url("Assets/Images/services2.png")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -259,7 +259,7 @@
     }
   }
   #second-opinions {
-    background: url(../dist/Assets/Images/second\ Opinions.png)no-repeat center/cover;
+    background: url("Assets/Images/second\ Opinions.png")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -282,7 +282,7 @@
     }
   }
   #fillings {
-    background: url(../dist/Assets/Images/services3.png)no-repeat center/cover;
+    background: url("Assets/Images/services3.png")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -305,7 +305,7 @@
     }
   }
   #child-dentistry {
-    background: url(../dist/Assets/Images/patient1.jpg)no-repeat center/cover;
+    background: url("Assets/Images/patient1.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -328,7 +328,7 @@
     }
   }
   #jaw-pain {
-    background: url(../dist/Assets/Images/services6.png)no-repeat center/cover;
+    background: url("Assets/Images/services6.png")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -355,7 +355,7 @@
 
   // Preventative SERVICES IMAGES
   #mouthguards {
-    background: url(../dist/Assets/Images/mouthguardchild.jpg)no-repeat center/cover;
+    background: url("Assets/Images/mouthguardchild.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -378,7 +378,7 @@
     
   }
   #scale-clean {
-    background: url(../dist/Assets/Images/scaleclean.jpg)no-repeat center/cover;
+    background: url("Assets/Images/scaleclean.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -401,7 +401,7 @@
     }
   }
   #education {
-    background: url(../dist/Assets/Images/educatedental.jpg)no-repeat center/cover;
+    background: url("Assets/Images/educatedental.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -424,7 +424,7 @@
     }
   }
   #coaching {
-    background: url(../dist/Assets/Images/coachingdental.jpg)no-repeat center/cover;
+    background: url("Assets/Images/coachingdental.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -447,7 +447,7 @@
     }
   }
   #regular-check-ups {
-    background: url(../dist/Assets/Images/regularcheckups.jpg)no-repeat center/cover;
+    background: url("Assets/Images/regularcheckups.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -470,7 +470,7 @@
     }
   }
   #periodontal {
-    background: url(../dist/Assets/Images/periodontal.jpg)no-repeat center/cover;
+    background: url("Assets/Images/periodontal.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -494,7 +494,7 @@
   }
   // Restorative SERVICES IMAGES
   #bridges {
-    background: url(../dist/Assets/Images/bridges.jpg)no-repeat center/cover;
+    background: url("Assets/Images/bridges.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -517,7 +517,7 @@
     
   }
   #root {
-    background: url(../dist/Assets/Images/rootcanal.jpg)no-repeat center/cover;
+    background: url("Assets/Images/rootcanal.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -540,7 +540,7 @@
     }
   }
   #fill {
-    background: url(../dist/Assets/Images/toothfill.jpg)no-repeat center/cover;
+    background: url("Assets/Images/toothfill.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -563,7 +563,7 @@
     }
   }
   #implants {
-    background: url(../dist/Assets/Images/implants.jpg)no-repeat center/cover;
+    background: url("Assets/Images/implants.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -586,7 +586,7 @@
     }
   }
   #veneers{
-    background: url(../dist/Assets/Images/veneers.jpg)no-repeat center/cover;
+    background: url("Assets/Images/veneers.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -609,7 +609,7 @@
     }
   }
   #braces {
-    background: url(../dist/Assets/Images/braces.jpg)no-repeat center/cover;
+    background: url("Assets/Images/braces.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -632,7 +632,7 @@
     }
   }
   #teeth-white {
-    background: url(../dist/Assets/Images/teethwhite.jpg)no-repeat center/cover;
+    background: url("Assets/Images/teethwhite.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -655,7 +655,7 @@
     }
   }
   #comp-bond {
-    background: url(../dist/Assets/Images/compbond.jpg)no-repeat center/cover;
+    background: url("Assets/Images/compbond.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -678,7 +678,7 @@
     }
   }
   #consult {
-    background: url(../dist/Assets/Images/dentalhelp.png)no-repeat center/cover;
+    background: url("Assets/Images/dentalhelp.png")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -701,7 +701,7 @@
     }
   }
   #dent-crown {
-    background: url(../dist/Assets/Images/crowns.jpg)no-repeat center/cover;
+    background: url("Assets/Images/crowns.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -724,7 +724,7 @@
     }
   }
   #dent-bridge {
-    background: url(../dist/Assets/Images/bridges.jpg)no-repeat center/cover;
+    background: url("Assets/Images/bridges.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;
@@ -747,7 +747,7 @@
     }
   }
   #dent-veneer {
-    background: url(../dist/Assets/Images/veneers.jpg)no-repeat center/cover;
+    background: url("Assets/Images/veneers.jpg")no-repeat center/cover;
     flex-direction: column;
     justify-content: end;
     transition: 400ms;

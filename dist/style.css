@@ -1749,76 +1749,76 @@ button:hover,
   opacity: 1;
 }
 .generalservice .servicetype .servicelinks__service1, .generalservice .servicetype .servicelinks1__service1, .generalservice .servicetype .servicelinks2__service1, .generalservice .servicetype .servicelinks3__service1 {
-  background: url(../dist/Assets/Images/services5.png) no-repeat center/cover;
+  background: url("Assets/Images/services5.png") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service2, .generalservice .servicetype .servicelinks1__service2, .generalservice .servicetype .servicelinks2__service2, .generalservice .servicetype .servicelinks3__service2 {
-  background: url(../dist/Assets/Images/services2.png) no-repeat center/cover;
+  background: url("Assets/Images/services2.png") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service3, .generalservice .servicetype .servicelinks1__service3, .generalservice .servicetype .servicelinks2__service3, .generalservice .servicetype .servicelinks3__service3 {
-  background: url(../dist/Assets/Images/second\ Opinions.png) no-repeat center/cover;
+  background: url("Assets/Images/second Opinions.png") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service4, .generalservice .servicetype .servicelinks1__service4, .generalservice .servicetype .servicelinks2__service4, .generalservice .servicetype .servicelinks3__service4 {
-  background: url(../dist/Assets/Images/services3.png) no-repeat center/cover;
+  background: url("Assets/Images/services3.png") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service5, .generalservice .servicetype .servicelinks1__service5, .generalservice .servicetype .servicelinks2__service5, .generalservice .servicetype .servicelinks3__service5 {
-  background: url(../dist/Assets/Images/patient1.jpg) no-repeat center/cover;
+  background: url("Assets/Images/patient1.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service6, .generalservice .servicetype .servicelinks1__service6, .generalservice .servicetype .servicelinks2__service6, .generalservice .servicetype .servicelinks3__service6 {
-  background: url(../dist/Assets/Images/services6.png) no-repeat center/cover;
+  background: url("Assets/Images/services6.png") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service7, .generalservice .servicetype .servicelinks1__service7, .generalservice .servicetype .servicelinks2__service7, .generalservice .servicetype .servicelinks3__service7 {
-  background: url(../dist/Assets/Images/mouthguardchild.jpg) no-repeat center/cover;
+  background: url("Assets/Images/mouthguardchild.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service8, .generalservice .servicetype .servicelinks1__service8, .generalservice .servicetype .servicelinks2__service8, .generalservice .servicetype .servicelinks3__service8 {
-  background: url(../dist/Assets/Images/scaleclean.jpg) no-repeat center/cover;
+  background: url("Assets/Images/scaleclean.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service9, .generalservice .servicetype .servicelinks1__service9, .generalservice .servicetype .servicelinks2__service9, .generalservice .servicetype .servicelinks3__service9 {
-  background: url(../dist/Assets/Images/educatedental.jpg) no-repeat center/cover;
+  background: url("Assets/Images/educatedental.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service10, .generalservice .servicetype .servicelinks1__service10, .generalservice .servicetype .servicelinks2__service10, .generalservice .servicetype .servicelinks3__service10 {
-  background: url(../dist/Assets/Images/coachingdental.jpg) no-repeat center/cover;
+  background: url("Assets/Images/coachingdental.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service11, .generalservice .servicetype .servicelinks1__service11, .generalservice .servicetype .servicelinks2__service11, .generalservice .servicetype .servicelinks3__service11 {
-  background: url(../dist/Assets/Images/regularcheckups.jpg) no-repeat center/cover;
+  background: url("Assets/Images/regularcheckups.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service12, .generalservice .servicetype .servicelinks1__service12, .generalservice .servicetype .servicelinks2__service12, .generalservice .servicetype .servicelinks3__service12 {
-  background: url(../dist/Assets/Images/periodontal.jpg) no-repeat center/cover;
+  background: url("Assets/Images/periodontal.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service13, .generalservice .servicetype .servicelinks1__service13, .generalservice .servicetype .servicelinks2__service13, .generalservice .servicetype .servicelinks3__service13 {
-  background: url(../dist/Assets/Images/bridges.jpg) no-repeat center/cover;
+  background: url("Assets/Images/bridges.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service14, .generalservice .servicetype .servicelinks1__service14, .generalservice .servicetype .servicelinks2__service14, .generalservice .servicetype .servicelinks3__service14 {
-  background: url(../dist/Assets/Images/rootcanal.jpg) no-repeat center/cover;
+  background: url("Assets/Images/rootcanal.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service15, .generalservice .servicetype .servicelinks1__service15, .generalservice .servicetype .servicelinks2__service15, .generalservice .servicetype .servicelinks3__service15 {
-  background: url(../dist/Assets/Images/toothfill.jpg) no-repeat center/cover;
+  background: url("Assets/Images/toothfill.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service16, .generalservice .servicetype .servicelinks1__service16, .generalservice .servicetype .servicelinks2__service16, .generalservice .servicetype .servicelinks3__service16 {
-  background: url(../dist/Assets/Images/implants.jpg) no-repeat center/cover;
+  background: url("Assets/Images/implants.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service17, .generalservice .servicetype .servicelinks1__service17, .generalservice .servicetype .servicelinks2__service17, .generalservice .servicetype .servicelinks3__service17 {
-  background: url(../dist/Assets/Images/veneers.jpg) no-repeat center/cover;
+  background: url("Assets/Images/veneers.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service18, .generalservice .servicetype .servicelinks1__service18, .generalservice .servicetype .servicelinks2__service18, .generalservice .servicetype .servicelinks3__service18 {
-  background: url(../dist/Assets/Images/braces.jpg) no-repeat center/cover;
+  background: url("Assets/Images/braces.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service19, .generalservice .servicetype .servicelinks1__service19, .generalservice .servicetype .servicelinks2__service19, .generalservice .servicetype .servicelinks3__service19 {
-  background: url(../dist/Assets/Images/teethwhite.jpg) no-repeat center/cover;
+  background: url("Assets/Images/teethwhite.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service20, .generalservice .servicetype .servicelinks1__service20, .generalservice .servicetype .servicelinks2__service20, .generalservice .servicetype .servicelinks3__service20 {
-  background: url(../dist/Assets/Images/compbond.jpg) no-repeat center/cover;
+  background: url("Assets/Images/compbond.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service21, .generalservice .servicetype .servicelinks1__service21, .generalservice .servicetype .servicelinks2__service21, .generalservice .servicetype .servicelinks3__service21 {
-  background: url(../dist/Assets/Images/dentalhelp.png) no-repeat center/cover;
+  background: url("Assets/Images/dentalhelp.png") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service22, .generalservice .servicetype .servicelinks1__service22, .generalservice .servicetype .servicelinks2__service22, .generalservice .servicetype .servicelinks3__service22 {
-  background: url(../dist/Assets/Images/crowns.jpg) no-repeat center/cover;
+  background: url("Assets/Images/crowns.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service23, .generalservice .servicetype .servicelinks1__service23, .generalservice .servicetype .servicelinks2__service23, .generalservice .servicetype .servicelinks3__service23 {
-  background: url(../dist/Assets/Images/bridges.jpg) no-repeat center/cover;
+  background: url("Assets/Images/bridges.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service24, .generalservice .servicetype .servicelinks1__service24, .generalservice .servicetype .servicelinks2__service24, .generalservice .servicetype .servicelinks3__service24 {
-  background: url(../dist/Assets/Images/veneers.jpg) no-repeat center/cover;
+  background: url("Assets/Images/veneers.jpg") no-repeat center/cover;
 }
 .generalservice .servicecontent, .generalservice .servicecontent1, .generalservice .servicecontent2, .generalservice .servicecontent3 {
   display: none;
@@ -1833,7 +1833,7 @@ button:hover,
   }
 }
 .generalservice .servicecontent__start, .generalservice .servicecontent1__start, .generalservice .servicecontent2__start, .generalservice .servicecontent3__start {
-  background: url(../dist/Assets/Images/generaldentist.png) no-repeat center/cover;
+  background: url("Assets/Images/generaldentist.png") no-repeat center/cover;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -1868,7 +1868,7 @@ button:hover,
   justify-items: right;
 }
 .generalservice .servicecontent1__start {
-  background: url(../dist/Assets/Images/patient1.jpg) no-repeat center/cover;
+  background: url("Assets/Images/patient1.jpg") no-repeat center/cover;
   text-align: left;
 }
 .generalservice .servicecontent2 {
@@ -1877,7 +1877,7 @@ button:hover,
   justify-items: right;
 }
 .generalservice .servicecontent2__start {
-  background: url(../dist/Assets/Images/restorativedental.jpg) no-repeat center/cover;
+  background: url("Assets/Images/restorativedental.jpg") no-repeat center/cover;
   text-align: right;
 }
 .generalservice .servicecontent3 {
@@ -1886,11 +1886,11 @@ button:hover,
   justify-items: right;
 }
 .generalservice .servicecontent3__start {
-  background: url(../dist/Assets/Images/Cosmetic.png) no-repeat center/cover;
+  background: url("Assets/Images/Cosmetic.png") no-repeat center/cover;
   text-align: right;
 }
 .generalservice #check-ups {
-  background: url(../dist/Assets/Images/services5.png) no-repeat center/cover;
+  background: url("Assets/Images/services5.png") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 2s;
@@ -1911,7 +1911,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #oral-hygiene {
-  background: url(../dist/Assets/Images/services2.png) no-repeat center/cover;
+  background: url("Assets/Images/services2.png") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -1932,7 +1932,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #second-opinions {
-  background: url(../dist/Assets/Images/second\ Opinions.png) no-repeat center/cover;
+  background: url("Assets/Images/second Opinions.png") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -1953,7 +1953,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #fillings {
-  background: url(../dist/Assets/Images/services3.png) no-repeat center/cover;
+  background: url("Assets/Images/services3.png") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -1974,7 +1974,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #child-dentistry {
-  background: url(../dist/Assets/Images/patient1.jpg) no-repeat center/cover;
+  background: url("Assets/Images/patient1.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -1995,7 +1995,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #jaw-pain {
-  background: url(../dist/Assets/Images/services6.png) no-repeat center/cover;
+  background: url("Assets/Images/services6.png") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2016,7 +2016,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #mouthguards {
-  background: url(../dist/Assets/Images/mouthguardchild.jpg) no-repeat center/cover;
+  background: url("Assets/Images/mouthguardchild.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2037,7 +2037,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #scale-clean {
-  background: url(../dist/Assets/Images/scaleclean.jpg) no-repeat center/cover;
+  background: url("Assets/Images/scaleclean.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2058,7 +2058,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #education {
-  background: url(../dist/Assets/Images/educatedental.jpg) no-repeat center/cover;
+  background: url("Assets/Images/educatedental.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2079,7 +2079,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #coaching {
-  background: url(../dist/Assets/Images/coachingdental.jpg) no-repeat center/cover;
+  background: url("Assets/Images/coachingdental.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2100,7 +2100,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #regular-check-ups {
-  background: url(../dist/Assets/Images/regularcheckups.jpg) no-repeat center/cover;
+  background: url("Assets/Images/regularcheckups.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2121,7 +2121,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #periodontal {
-  background: url(../dist/Assets/Images/periodontal.jpg) no-repeat center/cover;
+  background: url("Assets/Images/periodontal.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2142,7 +2142,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #bridges {
-  background: url(../dist/Assets/Images/bridges.jpg) no-repeat center/cover;
+  background: url("Assets/Images/bridges.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2163,7 +2163,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #root {
-  background: url(../dist/Assets/Images/rootcanal.jpg) no-repeat center/cover;
+  background: url("Assets/Images/rootcanal.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2184,7 +2184,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #fill {
-  background: url(../dist/Assets/Images/toothfill.jpg) no-repeat center/cover;
+  background: url("Assets/Images/toothfill.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2205,7 +2205,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #implants {
-  background: url(../dist/Assets/Images/implants.jpg) no-repeat center/cover;
+  background: url("Assets/Images/implants.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2226,7 +2226,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #veneers {
-  background: url(../dist/Assets/Images/veneers.jpg) no-repeat center/cover;
+  background: url("Assets/Images/veneers.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2247,7 +2247,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #braces {
-  background: url(../dist/Assets/Images/braces.jpg) no-repeat center/cover;
+  background: url("Assets/Images/braces.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2268,7 +2268,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #teeth-white {
-  background: url(../dist/Assets/Images/teethwhite.jpg) no-repeat center/cover;
+  background: url("Assets/Images/teethwhite.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2289,7 +2289,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #comp-bond {
-  background: url(../dist/Assets/Images/compbond.jpg) no-repeat center/cover;
+  background: url("Assets/Images/compbond.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2310,7 +2310,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #consult {
-  background: url(../dist/Assets/Images/dentalhelp.png) no-repeat center/cover;
+  background: url("Assets/Images/dentalhelp.png") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2331,7 +2331,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #dent-crown {
-  background: url(../dist/Assets/Images/crowns.jpg) no-repeat center/cover;
+  background: url("Assets/Images/crowns.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2352,7 +2352,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #dent-bridge {
-  background: url(../dist/Assets/Images/bridges.jpg) no-repeat center/cover;
+  background: url("Assets/Images/bridges.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2373,7 +2373,7 @@ button:hover,
   padding: 1rem 2rem;
 }
 .generalservice #dent-veneer {
-  background: url(../dist/Assets/Images/veneers.jpg) no-repeat center/cover;
+  background: url("Assets/Images/veneers.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
