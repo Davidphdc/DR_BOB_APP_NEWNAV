@@ -17,6 +17,7 @@
     @include breakpoint-up(large) {
       height: 50%;
       width: 50%;
+      align-self: center;
     }
   }
   
@@ -27,8 +28,10 @@
     justify-content: center;
     background-color: $prim-blue;
     color: $white;
-    height: 100%;
     min-width: 16rem;
+    @include breakpoint-up(large) {
+      min-width: 36rem;
+    }
     padding: 1rem;
     select {
       padding: 0.4rem;
