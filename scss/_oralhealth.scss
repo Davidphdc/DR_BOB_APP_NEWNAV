@@ -6,27 +6,47 @@
   @include breakpoint-up(large) {
     flex-direction: row;
   }
-  img {
-    padding: 1rem;
-    width: 100%;
-
-    @include breakpoint-up(large) {
-      height: 20%;
-      width: 20%;
-    }
-  }
-
-  &__oral {
+  
+  .oral {
     display: flex;
     padding: 1rem;
-    text-align: center;  
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     .indent {
               text-indent: 2rem;
       
+    }
+    img {
+      padding: 1rem;
+      width: 100%;      
+      @include breakpoint-up(large) {
+        height: 20%;
+        width: 20%;
+      }
+    }
+    .wrapbox {
+      display: flex;
+      flex-direction: row;
+      @include breakpoint-down(medium) {
+        display: flex;
+        flex-direction: column;
+      }
+
+      p {
+        color: $prim-blue;
+
+        &:nth-child(6) {
+          color: $sec-blue;
+        }
+      }
+      .item {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+       
+      }
     }
     img {
       align-self: flex-end;
@@ -43,6 +63,7 @@
     }
     p {
       color: $sec-blue;
+      margin-bottom: 0;
       @include breakpoint-up(large) {
        font-size: $font-reg;
      
@@ -64,9 +85,9 @@
       padding-left: 2rem;
       line-height: 2rem;
     }
-    
+  } 
   }
-}
+
 .systemic {
   display: flex;
   flex-direction: column;
