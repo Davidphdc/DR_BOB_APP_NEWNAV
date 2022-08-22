@@ -117,14 +117,18 @@
     order: 2;
     align-items: center;
     justify-content: center;
+    .indent {
+      text-indent: 2rem;
 
+}
     @include breakpoint-up(large) {
-      text-align: right;
+      text-align: left;
       align-self: center;
       order: 1;
     }
     h2 {
       color: $prim-blue;
+      margin-bottom: 0;
       
 
     }
@@ -146,9 +150,10 @@
       
     }
     p {
+      margin-top: 0;
       color: $sec-blue;
       @include breakpoint-up(large) {
-       font-size: $font-lrg;
+       font-size: $font-reg;
       }
     }
     h3 {
