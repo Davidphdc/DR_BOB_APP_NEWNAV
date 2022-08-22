@@ -3081,8 +3081,8 @@ button:hover,
 }
 @media (min-width: 64em) {
   .genoral-info img {
-    height: 50%;
-    width: 50%;
+    height: 20%;
+    width: 20%;
   }
 }
 .genoral-info__oral {
@@ -3105,6 +3105,7 @@ button:hover,
 }
 .genoral-info__oral h2 {
   color: #0098ff;
+  margin-bottom: 0;
 }
 .genoral-info__oral p {
   color: #0065a8;
@@ -3125,6 +3126,11 @@ button:hover,
 .genoral-info__oral a {
   font-style: italic;
   color: #0098ff;
+}
+.genoral-info__oral li {
+  list-style: none;
+  padding-left: 2rem;
+  line-height: 2rem;
 }
 
 .systemic {
