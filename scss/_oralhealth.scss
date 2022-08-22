@@ -15,15 +15,12 @@
     flex-wrap: wrap;
     .indent {
               text-indent: 2rem;
+              
       
     }
     img {
       padding: 1rem;
-      width: 100%;      
-      @include breakpoint-up(large) {
-        height: 20%;
-        width: 20%;
-      }
+      width: 100%;   
     }
     .wrapbox {
       display: flex;
@@ -48,9 +45,7 @@
        
       }
     }
-    img {
-      align-self: flex-end;
-    }
+    
     @include breakpoint-up(large) {
       text-align: left;
       align-self: center;

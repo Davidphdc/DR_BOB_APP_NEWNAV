@@ -3089,12 +3089,6 @@ button:hover,
   padding: 1rem;
   width: 100%;
 }
-@media (min-width: 64em) {
-  .genoral-info .oral img {
-    height: 20%;
-    width: 20%;
-  }
-}
 .genoral-info .oral .wrapbox {
   display: flex;
   flex-direction: row;
@@ -3116,9 +3110,6 @@ button:hover,
   display: flex;
   flex-direction: column;
   padding-bottom: 1rem;
-}
-.genoral-info .oral img {
-  align-self: flex-end;
 }
 @media (min-width: 64em) {
   .genoral-info .oral {
