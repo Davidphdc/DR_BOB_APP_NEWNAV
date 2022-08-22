@@ -3093,6 +3093,9 @@ button:hover,
   align-items: center;
   justify-content: center;
 }
+.genoral-info__oral .indent {
+  text-indent: 2rem;
+}
 @media (min-width: 64em) {
   .genoral-info__oral {
     text-align: left;
@@ -3108,7 +3111,7 @@ button:hover,
 }
 @media (min-width: 64em) {
   .genoral-info__oral p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 }
 .genoral-info__oral h3 {
@@ -3118,6 +3121,10 @@ button:hover,
   .genoral-info__oral h3 {
     font-size: 1.6rem;
   }
+}
+.genoral-info__oral a {
+  font-style: italic;
+  color: #0098ff;
 }
 
 .systemic {
