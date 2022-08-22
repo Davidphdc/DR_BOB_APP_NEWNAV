@@ -3092,9 +3092,13 @@ button:hover,
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .genoral-info__oral .indent {
   text-indent: 2rem;
+}
+.genoral-info__oral img {
+  align-self: flex-end;
 }
 @media (min-width: 64em) {
   .genoral-info__oral {
