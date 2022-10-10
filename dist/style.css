@@ -960,8 +960,8 @@ section .banner-container .bannerImage1 .text, section .banner-container .banner
 }
 section .banner-container .bannerImage1 .text h1, section .banner-container .bannerImage2 .text h1, section .banner-container .bannerImage3 .text h1 {
   font-size: 1.6rem;
-  color: #0098ff;
-  background-color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
+  background-color: rgba(0, 152, 255, 0.8);
   margin-top: 40rem;
   padding: 2rem 4rem;
 }
