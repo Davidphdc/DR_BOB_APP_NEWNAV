@@ -945,8 +945,6 @@ section .banner-container {
   height: 100%;
   width: 100%;
   position: relative;
-  justify-content: center;
-  align-items: center;
 }
 section .banner-container .bannerImage1, section .banner-container .bannerImage2, section .banner-container .bannerImage3 {
   background-size: cover;
@@ -956,14 +954,16 @@ section .banner-container .bannerImage1, section .banner-container .bannerImage2
   position: absolute;
 }
 section .banner-container .bannerImage1 .text, section .banner-container .bannerImage2 .text, section .banner-container .bannerImage3 .text {
-  font-size: 1.6rem;
   display: flex;
-  background-color: #ffffff;
-  width: 80%;
   flex-direction: row;
-  align-self: center;
   justify-content: center;
-  margin-top: 150px;
+}
+section .banner-container .bannerImage1 .text h1, section .banner-container .bannerImage2 .text h1, section .banner-container .bannerImage3 .text h1 {
+  font-size: 1.6rem;
+  color: #0098ff;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 40rem;
+  padding: 2rem 4rem;
 }
 section .banner-container .bannerImage1 {
   background-image: url("Assets/Images/bannerimage01.jpg");
