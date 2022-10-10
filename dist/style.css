@@ -1716,10 +1716,15 @@ button:hover,
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 8rem;
+  height: 10rem;
   width: 100%;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.8);
+}
+@media (max-width: 63.9375em) {
+  .generalservice .servicetype .servicelinks, .generalservice .servicetype .servicelinks1, .generalservice .servicetype .servicelinks2, .generalservice .servicetype .servicelinks3 {
+    height: 4rem;
+  }
 }
 .generalservice .servicetype .servicelinks h2, .generalservice .servicetype .servicelinks1 h2, .generalservice .servicetype .servicelinks2 h2, .generalservice .servicetype .servicelinks3 h2 {
   text-align: center;

@@ -29,11 +29,13 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     height: 8rem;
+     height: 10rem;
      width: 100%;
      overflow: hidden;
      background-color: $overlayw;
-    
+     @include breakpoint-down (medium) {
+      height: 4rem;
+    }
      
      h2 {
       text-align: center;
