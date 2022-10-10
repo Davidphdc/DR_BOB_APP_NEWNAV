@@ -1752,7 +1752,7 @@ button:hover,
   background: url("Assets/Images/services5.png") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service2, .generalservice .servicetype .servicelinks1__service2, .generalservice .servicetype .servicelinks2__service2, .generalservice .servicetype .servicelinks3__service2 {
-  background: url("Assets/Images/services2.png") no-repeat center/cover;
+  background: url("Assets/Images/services2.png") no-repeat top center/cover;
 }
 .generalservice .servicetype .servicelinks__service3, .generalservice .servicetype .servicelinks1__service3, .generalservice .servicetype .servicelinks2__service3, .generalservice .servicetype .servicelinks3__service3 {
   background: url("Assets/Images/second Opinions.png") no-repeat center/cover;
