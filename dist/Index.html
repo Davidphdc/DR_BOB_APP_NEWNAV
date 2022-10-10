@@ -106,32 +106,42 @@
     </div>    
     </header>
   
-<!--    
-  <br><br><br>   
-  <br><br><br>    -->
- 
+
   <!-- Slideshow container -->
-  <section>
-  <div class="banner-container py">
+  <section class="banner-container py">
    
     <!-- Full-width images with number and caption text -->
-    <div class="bannerImage1">           
-      <div class="text"><h1>'Helping children's bright smiles, last a life time'</h1></div>
+    <div class="bannerSlides fade">      
+      <img src="Assets/Images/bannerimage01.jpg">
+      <div class="text">'Helping children's bright smiles, last a life time'</div>
     </div>
   
-    <div class="bannerImage2">          
-      <div class="text"> <h1>'Your local family dentist supporting your oral health'</h1></div>
+    <div class="bannerSlides fade">      
+      <img src="Assets/Images/bannerimage02.jpg">
+      <div class="text">'Your local family dentist supporting your oral health'</div>
     </div>
   
-    <div class="bannerImage3">        
-        <div class="text"><h1>'Healthy and happy families'</h1></div>
+    <div class="bannerSlides fade">
+      <div class="bg_banner">        
+        <img src="Assets/Images/bannerimage03.jpg">
+        <div class="text">'Healthy and happy families'</div>
+      </div>
     </div>
     
+    <div class="flexdot">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    
+    <!-- The dots/circles -->
+    <div class="dotdotdot">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-</div>
-</section> 
+  </section>
+ 
 <!-- SECTION PAGE BREAKS -->
-
   <div class="sectionbreak">
     <div class="pagebreak"></div>
     <div class="sectionbreakcontent">      
