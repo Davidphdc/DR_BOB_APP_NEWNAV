@@ -16,7 +16,7 @@
   img {
     width: 100%;     
     @include breakpoint-up(large) {
-      height: 90vh;
+      height: 80vh;
       width: 100%;      
     }
   }
@@ -115,3 +115,5 @@
 }
 
 }
+
+
