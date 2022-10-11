@@ -934,7 +934,7 @@ button:hover,
 
 section {
   width: 100%;
-  height: 450px;
+  height: 70vh;
   background: #ccc;
   margin: 0;
   padding: 0;
@@ -961,17 +961,17 @@ section {
 /* CSS Styles for each slide */
 /* Just add the image as background attribute and add some animation */
 .wrapper-one {
-  background-image: url("http://www.stnlatam.com/images/pitch/pitch1.jpg");
+  background-image: url(../dist/Assets/Images/bannerimage01.jpg);
 }
 
 .wrapper-two {
-  background-image: url("http://www.stnlatam.com/images/pitch/pitch2.jpg");
+  background-image: url(../dist/Assets/Images/bannerimage02.jpg);
   -webkit-animation: slideTwoAnim 20s infinite;
           animation: slideTwoAnim 20s infinite;
 }
 
 .wrapper-three {
-  background-image: url("http://www.stnlatam.com/images/pitch/pitch3.jpg");
+  background-image: url(../dist/Assets/Images/bannerimage03.jpg);
   -webkit-animation: slideThreeAnim 20s infinite;
           animation: slideThreeAnim 20s infinite;
 }
