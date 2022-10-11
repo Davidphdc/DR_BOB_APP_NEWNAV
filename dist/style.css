@@ -935,7 +935,6 @@ button:hover,
 section {
   width: 100%;
   height: 70vh;
-  background: #ccc;
   margin: 0;
   padding: 0;
 }
@@ -950,7 +949,6 @@ section {
 .wrapper-one,
 .wrapper-two,
 .wrapper-three {
-  background-color: #eee;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
