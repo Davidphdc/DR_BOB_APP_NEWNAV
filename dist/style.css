@@ -934,8 +934,8 @@ button:hover,
 
 section {
   width: 100%;
-  height: 70vh;
-  margin: 0;
+  height: 100vh;
+  margin: 2rem 0 0 0;
   padding: 0;
   background-color: #e9f6ff;
 }
@@ -951,8 +951,6 @@ section {
 .wrapper-two,
 .wrapper-three {
   background-color: #e9f6ff;
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -961,17 +959,17 @@ section {
 /* CSS Styles for each slide */
 /* Just add the image as background attribute and add some animation */
 .wrapper-one {
-  background-image: url("Assets/Images/bannerimage01.jpg");
+  background: url("Assets/Images/bannerimage01.jpg") no-repeat center center/cover;
 }
 
 .wrapper-two {
-  background-image: url("Assets/Images/bannerimage02.jpg");
+  background: url("Assets/Images/bannerimage02.jpg") no-repeat center center/cover;
   -webkit-animation: slideTwoAnim 20s infinite;
           animation: slideTwoAnim 20s infinite;
 }
 
 .wrapper-three {
-  background-image: url("Assets/Images/bannerimage03.jpg");
+  background: url("Assets/Images/bannerimage03.jpg") no-repeat center center/cover;
   -webkit-animation: slideThreeAnim 20s infinite;
           animation: slideThreeAnim 20s infinite;
 }
