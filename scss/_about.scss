@@ -126,13 +126,55 @@
     .button2 {
       margin-bottom: 3rem;
     }
-  }
 
+    .affiliates {
+      
+      a {
+        color: $prim-blue;
+      
+      }
+
+      h1 {
+        @include breakpoint-up (medium) { 
+        text-align: center;
+        }
+      }
+       &__links {
+        display: flex;
+      flex-direction: column;
+      font-size: $font-xsml;
+      text-align: left;
+      margin: 0 1rem;
+      
+     
+      @include breakpoint-up (medium) {
+
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      text-align: center;
+      margin: 0 2rem;
+      margin-bottom: 2rem;
+      font-size: $font-sml;      
+      }
+      @include breakpoint-up (large) { 
+        font-size: $font-reg;
+        }
+
+    }
+  }
+}
   img {     
     width: 100%;
     align-self: end;
     @include breakpoint-up (medium) {
       width: 40%;    
+      align-self: center;
+    }    
+    @include breakpoint-up (large) {
+      width: 40%;    
+      align-self: end;
     }    
   }
 }
