@@ -2214,20 +2214,20 @@ section {
   margin-bottom: 0;
   padding: 1rem 2rem;
 }
-.generalservice #implants {
+.generalservice #dentures {
   background: url("Assets/Images/implants.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
 }
-.generalservice #implants h2 {
+.generalservice #dentures h2 {
   background-color: rgba(255, 255, 255, 0.8);
   color: #0098ff;
   width: 100%;
   padding: 1rem 2rem 0 2rem;
   margin-bottom: 0;
 }
-.generalservice #implants p {
+.generalservice #dentures p {
   background-color: rgba(255, 255, 255, 0.8);
   color: #0065a8;
   width: 100%;
@@ -2256,20 +2256,20 @@ section {
   margin-bottom: 0;
   padding: 1rem 2rem;
 }
-.generalservice #braces {
+.generalservice #implants {
   background: url("Assets/Images/braces.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
 }
-.generalservice #braces h2 {
+.generalservice #implants h2 {
   background-color: rgba(255, 255, 255, 0.8);
   color: #0098ff;
   width: 100%;
   padding: 1rem 2rem 0 2rem;
   margin-bottom: 0;
 }
-.generalservice #braces p {
+.generalservice #implants p {
   background-color: rgba(255, 255, 255, 0.8);
   color: #0065a8;
   width: 100%;

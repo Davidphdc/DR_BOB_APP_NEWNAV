@@ -249,7 +249,7 @@ ssh1.addEventListener("mouseover", () => {
   });
 // Services CODE16
  const ssh16 = document.querySelector(".servicelinks2__service16");
- const implants = document.getElementById("implants");
+ const implants = document.getElementById("dentures");
  const start16 = document.querySelector(".servicecontent2__start");
  
  ssh16.addEventListener("mouseover", () => {
@@ -263,7 +263,7 @@ ssh1.addEventListener("mouseover", () => {
   });
 // Services CODE17
  const ssh17 = document.querySelector(".servicelinks2__service17");
- const veneers = document.getElementById("veneers");
+ const veneers = document.getElementById("implants");
  const start17 = document.querySelector(".servicecontent2__start");
  
  ssh17.addEventListener("mouseover", () => {
@@ -277,7 +277,7 @@ ssh1.addEventListener("mouseover", () => {
   });
 // Services CODE18
  const ssh18 = document.querySelector(".servicelinks2__service18");
- const braces = document.getElementById("braces");
+ const braces = document.getElementById("veneers");
  const start18 = document.querySelector(".servicecontent2__start");
  
  ssh18.addEventListener("mouseover", () => {
