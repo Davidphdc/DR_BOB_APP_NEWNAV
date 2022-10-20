@@ -1804,13 +1804,13 @@ section {
   background: url("Assets/Images/toothfill.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service16, .generalservice .servicetype .servicelinks1__service16, .generalservice .servicetype .servicelinks2__service16, .generalservice .servicetype .servicelinks3__service16 {
-  background: url("Assets/Images/implants.jpg") no-repeat center/cover;
+  background: url("Assets/Images/dentures.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service17, .generalservice .servicetype .servicelinks1__service17, .generalservice .servicetype .servicelinks2__service17, .generalservice .servicetype .servicelinks3__service17 {
-  background: url("Assets/Images/veneers.jpg") no-repeat center/cover;
+  background: url("Assets/Images/implants.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service18, .generalservice .servicetype .servicelinks1__service18, .generalservice .servicetype .servicelinks2__service18, .generalservice .servicetype .servicelinks3__service18 {
-  background: url("Assets/Images/braces.jpg") no-repeat center/cover;
+  background: url("Assets/Images/veneers.jpg") no-repeat center/cover;
 }
 .generalservice .servicetype .servicelinks__service19, .generalservice .servicetype .servicelinks1__service19, .generalservice .servicetype .servicelinks2__service19, .generalservice .servicetype .servicelinks3__service19 {
   background: url("Assets/Images/teethwhite.jpg") no-repeat center/cover;
@@ -2215,7 +2215,7 @@ section {
   padding: 1rem 2rem;
 }
 .generalservice #dentures {
-  background: url("Assets/Images/implants.jpg") no-repeat center/cover;
+  background: url("Assets/Images/dentures.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
@@ -2257,7 +2257,7 @@ section {
   padding: 1rem 2rem;
 }
 .generalservice #implants {
-  background: url("Assets/Images/braces.jpg") no-repeat center/cover;
+  background: url("Assets/Images/implants.jpg") no-repeat center/cover;
   flex-direction: column;
   justify-content: end;
   transition: 400ms;
