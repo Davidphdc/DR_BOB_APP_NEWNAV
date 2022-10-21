@@ -16,6 +16,8 @@
     display: flex;
     flex-direction: column;
   }
+
+  
   .servicetype {
     display: grid;
     position: relative;
@@ -23,8 +25,12 @@
     grid-template-rows: 1fr 1fr 1fr;
     
     overflow: hidden;
- 
-  
+
+    &__extra {
+      display: flex;
+      flex-direction: column;
+    }
+
     .servicelinks, .servicelinks1, .servicelinks2, .servicelinks3 {
      display: flex;
      align-items: center;
@@ -147,12 +153,9 @@
     display: none;
     position: relative;
     width: 100%;
-    text-align: right;
+    text-align: left;
     
-    @include breakpoint-down (medium) {
-      width: 100%;
-      text-align: center;
-    }
+    
     &__start {
       background: url("Assets/Images/generaldentist.png")no-repeat center/cover;
       display: flex;
@@ -160,12 +163,9 @@
       flex-direction: column;  
       align-items: end;
       justify-content: end;
-      text-align: right;
+      text-align: left;
       
-      @include breakpoint-down (medium) {
-        width: 100%;
-        text-align: center;
-      }
+     
       h2 {
         background-color: $overlayw;
         color: $prim-blue;
@@ -194,19 +194,19 @@
     justify-items: right;
   }
   .servicecontent2 {
-    text-align: right;
+    text-align: left;
     &__start {
       background: url("Assets/Images/restorativedental.jpg")no-repeat center/cover;
-      text-align: right;
+      text-align: left;
     }
     justify-content: right;
     justify-items: right;
   }
   .servicecontent3 {
-    text-align: right;
+    text-align: left;
     &__start {
       background: url("Assets/Images/Cosmetic.png")no-repeat center/cover;
-      text-align: right;
+      text-align: left;
     }
     justify-content: right;
     justify-items: right;
@@ -812,7 +812,7 @@
     p {
       color: $sec-blue;
       @include breakpoint-up(large) {
-       font-size: $font-lrg;
+       font-size: $font-med;
       }
     }
     h3 {
@@ -867,9 +867,8 @@
 
     }
     .emergbut {
-      a {
         font-size: 3rem;
-        color: $black;
+        color: red;
         padding: 0 2rem;
         cursor: pointer;
         border-radius: 3.125rem;
@@ -877,7 +876,7 @@
        &:hover {
         transform: scale(1.2);
         transition: 300ms ease-in-out;
-        background-color: $urg-com;
+        background-color: red;
         color: $white;
        }
       }
@@ -897,4 +896,3 @@
        }
     }
   }
-}
