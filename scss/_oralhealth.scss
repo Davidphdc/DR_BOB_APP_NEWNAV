@@ -159,22 +159,11 @@
   }
 }
 .oralfaq-info {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   padding-right: 5%;
 
-  @include breakpoint-up(large) {
-    flex-direction: row;
-  }
-  img {
-    padding: 1rem;
-    width: 100%;
-
-    @include breakpoint-up(large) {
-      height: 50%;
-      width: 50%;
-    }
-  }
 
   &__oral {
     display: flex;

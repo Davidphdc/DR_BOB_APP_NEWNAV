@@ -4002,24 +4002,10 @@ section {
 }
 
 .oralfaq-info {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   padding-right: 5%;
-}
-@media (min-width: 64em) {
-  .oralfaq-info {
-    flex-direction: row;
-  }
-}
-.oralfaq-info img {
-  padding: 1rem;
-  width: 100%;
-}
-@media (min-width: 64em) {
-  .oralfaq-info img {
-    height: 50%;
-    width: 50%;
-  }
 }
 .oralfaq-info__oral {
   display: flex;
