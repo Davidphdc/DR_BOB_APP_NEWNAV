@@ -18,10 +18,12 @@ section {
 /* CSS Styles in common for all slides */
 .wrapper-one,
 .wrapper-two,
-.wrapper-three {
+.wrapper-three, 
+.wrapper-four, 
+.wrapper-five, 
+.wrapper-six, 
+.wrapper-seven {
   background-color: $bg-light;
-  // background-size: cover;
-  // background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -31,17 +33,37 @@ section {
 /* Just add the image as background attribute and add some animation */
 
 .wrapper-one {
-    background: url('Assets/Images/bannerimage01.jpg')no-repeat center center/cover;
+    background: url('Assets/Images/bannerim001.jpg')no-repeat center center/cover;
 }
 
 .wrapper-two {
-    background: url('Assets/Images/bannerimage02.jpg')no-repeat center center/cover;
-  animation: slideTwoAnim 20s infinite;
+    background: url('Assets/Images/bannerim002.jpg')no-repeat center center/cover;
+  animation: slideTwoAnim 15s infinite;
 }
 
 .wrapper-three {
-    background: url('Assets/Images/bannerimage03.jpg')no-repeat center center/cover;
-  animation: slideThreeAnim 20s infinite;
+    background: url('Assets/Images/bannerim003.jpg')no-repeat center center/cover;
+  animation: slideThreeAnim 15s infinite;
+}
+
+.wrapper-four {
+    background: url('Assets/Images/bannerim004.jpg')no-repeat center center/cover;
+  animation: slideFourAnim 15s infinite;
+}
+
+.wrapper-five {
+    background: url('Assets/Images/bannerim005.jpg')no-repeat center center/cover;
+  animation: slideFiveAnim 15s infinite;
+}
+
+.wrapper-six {
+    background: url('Assets/Images/bannerim006.jpg')no-repeat center center/cover;
+  animation: slideSixAnim 15s infinite;
+}
+
+.wrapper-seven {
+    background: url('Assets/Images/bannerim007.jpg')no-repeat center center/cover;
+  animation: slideSevenAnim 15s infinite;
 }
 
 /* Styles for the text */
@@ -64,6 +86,35 @@ section {
 }
 
 @keyframes slideThreeAnim {
+    0%{opacity:0;}
+    50%{opacity:0;}
+    67%{opacity:1;}
+    83%{opacity:1;}
+    100%{opacity:0;}
+}
+
+@keyframes slideFourAnim {
+    0%{opacity:0;}
+    50%{opacity:0;}
+    67%{opacity:1;}
+    83%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes slideFiveAnim {
+    0%{opacity:0;}
+    50%{opacity:0;}
+    67%{opacity:1;}
+    83%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes slideSixAnim {
+    0%{opacity:0;}
+    50%{opacity:0;}
+    67%{opacity:1;}
+    83%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes slideSevenAnim {
     0%{opacity:0;}
     50%{opacity:0;}
     67%{opacity:1;}
