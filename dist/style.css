@@ -3580,7 +3580,7 @@ section {
   background: url("../Assets/Images/bannerim001.jpg") no-repeat center center/cover;
 }
 .wrapper-one .wrapper-text h2 {
-  margin-top: 450px;
+  margin-top: 40.625rem;
 }
 
 .wrapper-two {
@@ -3589,7 +3589,7 @@ section {
           animation: slideTwoAnim 40s infinite;
 }
 .wrapper-two .wrapper-text h2 {
-  margin-top: 450px;
+  margin-top: 28.125rem;
 }
 
 .wrapper-three {
@@ -3598,7 +3598,7 @@ section {
           animation: slideThreeAnim 40s infinite;
 }
 .wrapper-three .wrapper-text h2 {
-  align-self: flex-end;
+  margin-top: 40.625rem;
 }
 
 .wrapper-four {
@@ -3616,7 +3616,7 @@ section {
           animation: slideFiveAnim 40s infinite;
 }
 .wrapper-five .wrapper-text h2 {
-  margin-top: 450px;
+  margin-top: 40.625rem;
 }
 
 .wrapper-six {
@@ -3625,7 +3625,7 @@ section {
           animation: slideSixAnim 40s infinite;
 }
 .wrapper-six .wrapper-text h2 {
-  margin-top: 450px;
+  margin-top: 40.625rem;
 }
 
 .wrapper-seven {
