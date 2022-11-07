@@ -33,31 +33,61 @@ section {
 
 .wrapper-one {
     background: url('../Assets/Images/bannerim001.jpg')no-repeat center center/cover;
+    .wrapper-text {
+      h2 {
+        margin-top: 450px;
+      }
+    }
 }
 
 .wrapper-two {
     background: url('../Assets/Images/bannerim002.jpg')no-repeat center center/cover;
     animation: slideTwoAnim 40s infinite;
+    .wrapper-text {
+      h2 {
+        margin-top: 450px;
+      }
+    }
 }
 
 .wrapper-three {
     background: url('../Assets/Images/bannerim003.jpg')no-repeat center center/cover;
     animation: slideThreeAnim 40s infinite;
+    .wrapper-text {
+      h2 {
+       align-self: flex-end;
+      }
+    }
 }
 
 .wrapper-four {
     background: url('../Assets/Images/bannerim004.jpg')no-repeat center center/cover;
     animation: slideFourAnim 40s infinite;
-}
+    .wrapper-text {
+      h2 {
+        margin-top: 450px;
+      }
+    }
+  }
 
 .wrapper-five {
     background: url('../Assets/Images/bannerim005.jpg')no-repeat center center/cover;
     animation: slideFiveAnim 40s infinite;
+    .wrapper-text {
+      h2 {
+        margin-top: 450px;
+      }
+    }
 }
 
 .wrapper-six {
     background: url('../Assets/Images/bannerim006.jpg')no-repeat center center/cover;
     animation: slideSixAnim 40s infinite;
+    .wrapper-text {
+      h2 {
+        margin-top: 450px;
+      }
+    }
 }
 
 .wrapper-seven {
