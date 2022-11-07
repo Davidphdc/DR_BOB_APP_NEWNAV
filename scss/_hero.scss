@@ -7,7 +7,7 @@ section {
   margin: 2rem 0 0 0;
   padding: 0;
   
-  background-color: $bg-light;
+  // background-color: $bg-light;
 }
 
 .slide-show-container {
@@ -27,6 +27,9 @@ section {
   height: 100%;
   width: 100%;
   position: absolute;
+
+  .wrapper-text {
+    font-family: 'Montserrat', sans-serif;  }
 }
 
 /* CSS Styles for each slide */
@@ -67,13 +70,14 @@ section {
 }
 
 /* Styles for the text */
-.wrapper-text {
-  font: 700 40px/1.4 Roboto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 150px;
-}
+// .wrapper-text {
+//   font-family: 'Montserrat', sans-serif;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   margin-top: 450px;
+//   background: $prim-blue;
+// }
 
 /* Animations */
 @keyframes slideTwoAnim {

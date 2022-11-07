@@ -937,7 +937,6 @@ section {
   height: 100vh;
   margin: 2rem 0 0 0;
   padding: 0;
-  background-color: #e9f6ff;
 }
 
 .slide-show-container {
@@ -958,6 +957,15 @@ section {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.wrapper-one .wrapper-text,
+.wrapper-two .wrapper-text,
+.wrapper-three .wrapper-text,
+.wrapper-four .wrapper-text,
+.wrapper-five .wrapper-text,
+.wrapper-six .wrapper-text,
+.wrapper-seven .wrapper-text {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* CSS Styles for each slide */
@@ -1003,14 +1011,6 @@ section {
 }
 
 /* Styles for the text */
-.wrapper-text {
-  font: 700 40px/1.4 Roboto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 150px;
-}
-
 /* Animations */
 @-webkit-keyframes slideTwoAnim {
   0% {
