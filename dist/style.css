@@ -3588,8 +3588,12 @@ section {
   -webkit-animation: slideTwoAnim 40s infinite;
           animation: slideTwoAnim 40s infinite;
 }
+.wrapper-two .wrapper-text {
+  justify-content: end;
+  margin-right: 10rem;
+}
 .wrapper-two .wrapper-text h2 {
-  margin-top: 28.125rem;
+  margin-top: 40.625rem;
 }
 
 .wrapper-three {
@@ -3642,7 +3646,6 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-align: center;
 }
 .wrapper-text h2 {
   font-family: "Monsterat", sans-serif;
@@ -3650,7 +3653,6 @@ section {
   width: auto;
   padding: 0 2rem;
   color: #0098ff;
-  align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
