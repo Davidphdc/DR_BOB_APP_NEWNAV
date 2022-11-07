@@ -963,41 +963,41 @@ section {
 /* CSS Styles for each slide */
 /* Just add the image as background attribute and add some animation */
 .wrapper-one {
-  background: url("../dist/Assets/Images/bannerim001.jpg") no-repeat center center/cover;
+  background: url("Assets/Images/bannerim001.jpg") no-repeat center center/cover;
 }
 
 .wrapper-two {
-  background: url(../dist/Assets/Images/bannerim002.jpg) no-repeat center center/cover;
+  background: url("Assets/Images/bannerim002.jpg") no-repeat center center/cover;
   -webkit-animation: slideTwoAnim 40s infinite;
           animation: slideTwoAnim 40s infinite;
 }
 
 .wrapper-three {
-  background: url(../dist/Assets/Images/bannerim003.jpg) no-repeat center center/cover;
+  background: url("Assets/Images/bannerim003.jpg") no-repeat center center/cover;
   -webkit-animation: slideThreeAnim 40s infinite;
           animation: slideThreeAnim 40s infinite;
 }
 
 .wrapper-four {
-  background: url(../dist/Assets/Images/bannerim004.jpg) no-repeat center center/cover;
+  background: url("Assets/Images/bannerim004.jpg") no-repeat center center/cover;
   -webkit-animation: slideFourAnim 40s infinite;
           animation: slideFourAnim 40s infinite;
 }
 
 .wrapper-five {
-  background: url(../dist/Assets/Images/bannerim005.jpg) no-repeat center center/cover;
+  background: url("Assets/Images/bannerim005.jpg") no-repeat center center/cover;
   -webkit-animation: slideFiveAnim 40s infinite;
           animation: slideFiveAnim 40s infinite;
 }
 
 .wrapper-six {
-  background: url(../dist/Assets/Images/bannerim006.jpg) no-repeat center center/cover;
+  background: url("Assets/Images/bannerim006.jpg") no-repeat center center/cover;
   -webkit-animation: slideSixAnim 40s infinite;
           animation: slideSixAnim 40s infinite;
 }
 
 .wrapper-seven {
-  background: url(../dist/Assets/Images/bannerim007.jpg) no-repeat center center/cover;
+  background: url("Assets/Images/bannerim007.jpg") no-repeat center center/cover;
   -webkit-animation: slideSevenAnim 40s infinite;
           animation: slideSevenAnim 40s infinite;
 }
