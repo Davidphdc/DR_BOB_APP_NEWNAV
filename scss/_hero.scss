@@ -6,9 +6,8 @@ section {
   height: 100vh;
   margin: 2rem 0 0 0;
   padding: 0;
-  
-  // background-color: $bg-light;
-
+  background-color: $bg-light;
+}
 
 .slide-show-container {
   height: 100%;
@@ -27,13 +26,6 @@ section {
   height: 100%;
   width: 100%;
   position: absolute;
-
-  .wrapper-text {
-    h2 {
-    font-family: 'Montserrat', sans-serif;  
-    font-size: 14rem;
-  }
-}
 }
 
 /* CSS Styles for each slide */
@@ -45,44 +37,43 @@ section {
 
 .wrapper-two {
     background: url('../Assets/Images/bannerim002.jpg')no-repeat center center/cover;
-  animation: slideTwoAnim 40s infinite;
+    animation: slideTwoAnim 40s infinite;
 }
 
 .wrapper-three {
     background: url('../Assets/Images/bannerim003.jpg')no-repeat center center/cover;
-  animation: slideThreeAnim 40s infinite;
+    animation: slideThreeAnim 40s infinite;
 }
 
 .wrapper-four {
     background: url('../Assets/Images/bannerim004.jpg')no-repeat center center/cover;
-  animation: slideFourAnim 40s infinite;
+    animation: slideFourAnim 40s infinite;
 }
 
 .wrapper-five {
     background: url('../Assets/Images/bannerim005.jpg')no-repeat center center/cover;
-  animation: slideFiveAnim 40s infinite;
+    animation: slideFiveAnim 40s infinite;
 }
 
 .wrapper-six {
     background: url('Assets/Images/bannerim006.jpg')no-repeat center center/cover;
-  animation: slideSixAnim 40s infinite;
+    animation: slideSixAnim 40s infinite;
 }
 
 .wrapper-seven {
     background: url('Assets/Images/bannerim007.jpg')no-repeat center center/cover;
-  animation: slideSevenAnim 40s infinite;
+    animation: slideSevenAnim 40s infinite;
 }
 
 /* Styles for the text */
-// .wrapper-text {
-//   font-family: 'Montserrat', sans-serif;
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   margin-top: 450px;
-//   background: $prim-blue;
-// }
+.wrapper-text {
+  font-family: 'Monsterat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 250px;
 }
+
 /* Animations */
 @keyframes slideTwoAnim {
     0%{opacity:0;}
