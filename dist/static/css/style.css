@@ -963,29 +963,29 @@ section {
 /* CSS Styles for each slide */
 /* Just add the image as background attribute and add some animation */
 .wrapper-one {
-  background: url("Assets/Images/bannerim001.jpg") no-repeat center center/cover;
+  background: url("../Assets/Images/bannerim001.jpg") no-repeat center center/cover;
 }
 
 .wrapper-two {
-  background: url("Assets/Images/bannerim002.jpg") no-repeat center center/cover;
+  background: url("../Assets/Images/bannerim002.jpg") no-repeat center center/cover;
   -webkit-animation: slideTwoAnim 40s infinite;
           animation: slideTwoAnim 40s infinite;
 }
 
 .wrapper-three {
-  background: url("Assets/Images/bannerim003.jpg") no-repeat center center/cover;
+  background: url("../Assets/Images/bannerim003.jpg") no-repeat center center/cover;
   -webkit-animation: slideThreeAnim 40s infinite;
           animation: slideThreeAnim 40s infinite;
 }
 
 .wrapper-four {
-  background: url("Assets/Images/bannerim004.jpg") no-repeat center center/cover;
+  background: url("../Assets/Images/bannerim004.jpg") no-repeat center center/cover;
   -webkit-animation: slideFourAnim 40s infinite;
           animation: slideFourAnim 40s infinite;
 }
 
 .wrapper-five {
-  background: url("Assets/Images/bannerim005.jpg") no-repeat center center/cover;
+  background: url("../Assets/Images/bannerim005.jpg") no-repeat center center/cover;
   -webkit-animation: slideFiveAnim 40s infinite;
           animation: slideFiveAnim 40s infinite;
 }
