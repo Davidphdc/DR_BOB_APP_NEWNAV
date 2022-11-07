@@ -55,7 +55,7 @@ section {
     animation: slideThreeAnim 40s infinite;
     .wrapper-text {
       h2 {
-      margin-top: 40.625rem;
+      margin-top: 44.625rem;
       }
     }
 }
@@ -109,9 +109,8 @@ section {
   h2 {
   font-family: 'Monsterat', sans-serif;
   font-size: $font-xLrg;
-  
-  margin-top: 250px;
-  width: 70%;
+  width: auto;
+  padding: 0 2rem;
   color: $prim-blue;
   align-items: center;
   background-color: $overlayw;

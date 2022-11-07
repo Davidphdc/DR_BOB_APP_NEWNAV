@@ -3598,7 +3598,7 @@ section {
           animation: slideThreeAnim 40s infinite;
 }
 .wrapper-three .wrapper-text h2 {
-  margin-top: 40.625rem;
+  margin-top: 44.625rem;
 }
 
 .wrapper-four {
@@ -3647,8 +3647,8 @@ section {
 .wrapper-text h2 {
   font-family: "Monsterat", sans-serif;
   font-size: 2rem;
-  margin-top: 250px;
-  width: 70%;
+  width: auto;
+  padding: 0 2rem;
   color: #0098ff;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
