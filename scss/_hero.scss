@@ -63,18 +63,30 @@ section {
 .wrapper-seven {
     background: url('../Assets/Images/bannerim007.jpg')no-repeat center center/cover;
     animation: slideSevenAnim 40s infinite;
+    .wrapper-text {
+      h2 {
+        margin-top: 450px;
+      }
+    }
 }
 
 /* Styles for the text */
 .wrapper-text {
-  font-family: 'Monsterat', sans-serif;
   display: flex;
-  font-size: $font-xLrg;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
+  h2 {
+  font-family: 'Monsterat', sans-serif;
+  font-size: $font-xLrg;
+  
   margin-top: 250px;
-  align-self: flex-end;
+  width: 70%;
+  color: $prim-blue;
+  align-items: center;
   background-color: $overlayw;
+}
+
 }
 
 /* Animations */
