@@ -2595,7 +2595,7 @@ button:hover,
 }
 @media (min-width: 64em) {
   .the-team {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 .the-team-info {
@@ -2639,18 +2639,27 @@ button:hover,
     font-size: 1.2rem;
   }
 }
-.the-team .team {
+.the-team .teamlayout {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 64em) {
+  .the-team .teamlayout {
+    flex-direction: row;
+  }
+}
+.the-team .teamlayout .team {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
-.the-team .team img {
+.the-team .teamlayout .team img {
   align-self: center;
-  width: 60%;
+  width: 80%;
 }
 @media (min-width: 64em) {
-  .the-team .team img {
-    width: 80%;
+  .the-team .teamlayout .team img {
+    width: 100%;
   }
 }
 

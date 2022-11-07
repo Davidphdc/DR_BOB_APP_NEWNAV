@@ -187,7 +187,8 @@
   text-align: center;
  
 @include breakpoint-up(large) {
-  flex-direction: row;
+  flex-direction: column;
+ 
 }
   &-info {
     padding: 2rem;
@@ -228,20 +229,26 @@
     }
 
   }
-
+  .teamlayout {
+    display: flex;
+    flex-direction: column;
+    @include breakpoint-up (large) {
+      flex-direction: row;    
+    } 
   .team {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     img {
       align-self: center;
-      width: 60%;
+      width: 80%;
       @include breakpoint-up (large) {
-        width:80%;    
+        width:100%;    
       } 
     }
 
   }
+}
 }
 
 // THe Pateints
