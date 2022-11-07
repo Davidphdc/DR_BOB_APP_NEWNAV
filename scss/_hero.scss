@@ -8,7 +8,7 @@ section {
   padding: 0;
   
   // background-color: $bg-light;
-}
+
 
 .slide-show-container {
   height: 100%;
@@ -29,7 +29,11 @@ section {
   position: absolute;
 
   .wrapper-text {
-    font-family: 'Montserrat', sans-serif;  }
+    h2 {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 14rem;
+  }
+}
 }
 
 /* CSS Styles for each slide */
@@ -78,7 +82,7 @@ section {
 //   margin-top: 450px;
 //   background: $prim-blue;
 // }
-
+}
 /* Animations */
 @keyframes slideTwoAnim {
     0%{opacity:0;}

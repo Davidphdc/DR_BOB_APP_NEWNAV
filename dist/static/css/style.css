@@ -937,80 +937,72 @@ section {
   height: 100vh;
   margin: 2rem 0 0 0;
   padding: 0;
+  /* CSS Styles in common for all slides */
+  /* CSS Styles for each slide */
+  /* Just add the image as background attribute and add some animation */
+  /* Styles for the text */
 }
-
-.slide-show-container {
+section .slide-show-container {
   height: 100%;
   width: 100%;
   position: relative;
 }
-
-/* CSS Styles in common for all slides */
-.wrapper-one,
-.wrapper-two,
-.wrapper-three,
-.wrapper-four,
-.wrapper-five,
-.wrapper-six,
-.wrapper-seven {
+section .wrapper-one,
+section .wrapper-two,
+section .wrapper-three,
+section .wrapper-four,
+section .wrapper-five,
+section .wrapper-six,
+section .wrapper-seven {
   background-color: #e9f6ff;
   height: 100%;
   width: 100%;
   position: absolute;
 }
-.wrapper-one .wrapper-text,
-.wrapper-two .wrapper-text,
-.wrapper-three .wrapper-text,
-.wrapper-four .wrapper-text,
-.wrapper-five .wrapper-text,
-.wrapper-six .wrapper-text,
-.wrapper-seven .wrapper-text {
+section .wrapper-one .wrapper-text h2,
+section .wrapper-two .wrapper-text h2,
+section .wrapper-three .wrapper-text h2,
+section .wrapper-four .wrapper-text h2,
+section .wrapper-five .wrapper-text h2,
+section .wrapper-six .wrapper-text h2,
+section .wrapper-seven .wrapper-text h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 14rem;
 }
-
-/* CSS Styles for each slide */
-/* Just add the image as background attribute and add some animation */
-.wrapper-one {
+section .wrapper-one {
   background: url("../Assets/Images/bannerim001.jpg") no-repeat center center/cover;
 }
-
-.wrapper-two {
+section .wrapper-two {
   background: url("../Assets/Images/bannerim002.jpg") no-repeat center center/cover;
   -webkit-animation: slideTwoAnim 40s infinite;
           animation: slideTwoAnim 40s infinite;
 }
-
-.wrapper-three {
+section .wrapper-three {
   background: url("../Assets/Images/bannerim003.jpg") no-repeat center center/cover;
   -webkit-animation: slideThreeAnim 40s infinite;
           animation: slideThreeAnim 40s infinite;
 }
-
-.wrapper-four {
+section .wrapper-four {
   background: url("../Assets/Images/bannerim004.jpg") no-repeat center center/cover;
   -webkit-animation: slideFourAnim 40s infinite;
           animation: slideFourAnim 40s infinite;
 }
-
-.wrapper-five {
+section .wrapper-five {
   background: url("../Assets/Images/bannerim005.jpg") no-repeat center center/cover;
   -webkit-animation: slideFiveAnim 40s infinite;
           animation: slideFiveAnim 40s infinite;
 }
-
-.wrapper-six {
+section .wrapper-six {
   background: url("Assets/Images/bannerim006.jpg") no-repeat center center/cover;
   -webkit-animation: slideSixAnim 40s infinite;
           animation: slideSixAnim 40s infinite;
 }
-
-.wrapper-seven {
+section .wrapper-seven {
   background: url("Assets/Images/bannerim007.jpg") no-repeat center center/cover;
   -webkit-animation: slideSevenAnim 40s infinite;
           animation: slideSevenAnim 40s infinite;
 }
 
-/* Styles for the text */
 /* Animations */
 @-webkit-keyframes slideTwoAnim {
   0% {
